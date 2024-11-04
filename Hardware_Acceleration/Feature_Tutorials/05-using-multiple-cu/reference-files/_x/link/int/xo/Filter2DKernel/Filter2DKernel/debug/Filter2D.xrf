@@ -1,0 +1,37 @@
+Begin Function 'Filter2D'
+
+RTL state condition: (1'b1 == ap_CS_fsm_state1)
+# ST_1
+local trunc_ln90 <trunc_90> <integer> <> 'trunc' </home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:90>
+trunc_ln90 /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:90
+reg: trunc_ln90_reg_3836[15:0] lv
+
+local trunc_ln90_2 <trunc_90> <integer> <> 'trunc' </home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:90>
+trunc_ln90_2 /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:90
+reg: trunc_ln90_2_reg_3842[15:0] lv
+
+local empty <> <integer> <> 'trunc' <>
+reg: empty_reg_3848[4:0] lv
+
+local add_ln18 <add_93> <integer> <Arithmetic> 'add' </home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:18->/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:93>
+add_ln18 /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:18
+add_ln18 /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:93
+reg: add_ln18_reg_3853[15:0] lv
+
+
+RTL state condition: (1'b1 == ap_CS_fsm_state2)
+# ST_2
+
+RTL state condition: (1'b1 == ap_CS_fsm_state4)
+# ST_4
+local mul_ln18 <mul_93> <integer> <Arithmetic><MultiCycle> 'mul' </home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:18->/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:93>
+mul_ln18 /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:18
+mul_ln18 /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:93
+reg: mul_ln18_reg_3868[31:0] lv
+
+
+RTL state condition: (1'b1 == ap_CS_fsm_state6)
+# ST_6
+
+End Function 'Filter2D'
+

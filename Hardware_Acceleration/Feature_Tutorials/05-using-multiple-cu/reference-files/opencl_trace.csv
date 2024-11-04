@@ -1,0 +1,49 @@
+HEADER
+VTF File Version,1.1
+VTF File Type,0
+PID,1148816
+Generated on,2024-11-04 21:41:34
+Resolution,ms
+Min Resolution,ns
+Trace Version,1.1
+TraceID,1148816
+XRT Version,2022.2
+
+STRUCTURE
+Group_Start,OpenCL Host Trace
+Group_Start,OpenCL API Calls
+Dynamic_Row,1,General,API Events not associated with a Queue
+Group_End,OpenCL API Calls
+Group_Start,Data Transfer
+Dynamic_Row,2,Read,Read data transfers from global memory to host
+Dynamic_Row,3,Write,Write data transfer from host to global memory
+Dynamic_Row,4,Copy,Copy data transfers from global memory to global memory
+Group_End,Data Transfer
+Group_Start,Kernel Enqueues
+Group_End,Kernel Enqueues
+Group_End,OpenCL Host Trace
+
+MAPPING
+4,clCreateContext
+5,clCreateProgramWithBinary
+3,clGetDeviceIDs
+1,clGetPlatformIDs
+2,clGetPlatformInfo
+
+EVENTS
+1,0,8.563804,1,OPENCL_API_CALL,1
+2,1,8.587807,1,OPENCL_API_CALL,1
+3,0,8.591852,1,OPENCL_API_CALL,1
+4,3,8.593268,1,OPENCL_API_CALL,1
+5,0,8.594328,1,OPENCL_API_CALL,2
+6,5,8.596830,1,OPENCL_API_CALL,2
+7,0,8.597746,1,OPENCL_API_CALL,2
+8,7,8.598861,1,OPENCL_API_CALL,2
+9,0,8.614336,1,OPENCL_API_CALL,3
+10,9,8.617905,1,OPENCL_API_CALL,3
+11,0,8.619219,1,OPENCL_API_CALL,4
+12,11,8.892425,1,OPENCL_API_CALL,4
+13,0,2079.577881,1,OPENCL_API_CALL,5
+
+DEPENDENCIES
+

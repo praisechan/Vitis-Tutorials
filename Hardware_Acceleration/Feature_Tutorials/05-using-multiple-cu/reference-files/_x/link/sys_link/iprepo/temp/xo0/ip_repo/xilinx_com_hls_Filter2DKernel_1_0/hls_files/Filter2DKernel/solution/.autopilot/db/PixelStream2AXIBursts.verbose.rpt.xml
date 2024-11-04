@@ -1,0 +1,312 @@
+<profile>
+
+<section name = "Vitis HLS Report for 'PixelStream2AXIBursts'" level="0">
+<item name = "Date">Mon Nov  4 21:37:40 2024
+</item>
+<item name = "Version">2022.2 (Build 3670227 on Oct 13 2022)</item>
+<item name = "Project">Filter2DKernel</item>
+<item name = "Solution">solution (Vitis Kernel Flow Target)</item>
+<item name = "Product family">virtexuplus</item>
+<item name = "Target device">xcu55c-fsvh2892-2L-e</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="4">Clock, Target, Estimated, Uncertainty</keys>
+<column name="ap_clk">3.33 ns, 2.433 ns, 0.90 ns</column>
+</table>
+</item>
+</section>
+</item>
+<item name = "Latency">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="8">, min, max, min, max, min, max, Type</keys>
+<column name="">2, 73077122, 6.666 ns, 0.244 sec, 2, 73077122, no</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
+<column name="grp_PixelStream2AXIBursts_Pipeline_pixels2bytes_fu_219">PixelStream2AXIBursts_Pipeline_pixels2bytes, 4, 65540, 13.332 ns, 0.218 ms, 4, 65540, no</column>
+<column name="grp_PixelStream2AXIBursts_Pipeline_bytes2aximm_fu_262">PixelStream2AXIBursts_Pipeline_bytes2aximm, 3, 2051, 9.999 ns, 6.836 us, 3, 2051, no</column>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+<column name="- forEachRow">0, 73077120, 80 ~ 67664, -, -, 0 ~ 1080, no</column>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Utilization Estimates" level="0">
+<item name = "Summary"><table name="" hasTotal="1">
+<keys size="6">Name, BRAM_18K, DSP, FF, LUT, URAM</keys>
+<column name="DSP">-, -, -, -, -</column>
+<column name="Expression">-, -, 0, 516, -</column>
+<column name="FIFO">-, -, -, -, -</column>
+<column name="Instance">-, -, 892, 1041, -</column>
+<column name="Memory">8, -, 0, 0, 0</column>
+<column name="Multiplexer">-, -, -, 633, -</column>
+<column name="Register">-, -, 371, -, -</column>
+<specialColumn name="Available SLR">1344, 3008, 869120, 434560, 320</specialColumn>
+<specialColumn name="Utilization SLR (%)">~0, 0, ~0, ~0, 0</specialColumn>
+<specialColumn name="Available">4032, 9024, 2607360, 1303680, 960</specialColumn>
+<specialColumn name="Utilization (%)">~0, 0, ~0, ~0, 0</specialColumn>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="1">
+<keys size="7">Instance, Module, BRAM_18K, DSP, FF, LUT, URAM</keys>
+<column name="grp_PixelStream2AXIBursts_Pipeline_bytes2aximm_fu_262">PixelStream2AXIBursts_Pipeline_bytes2aximm, 0, 0, 274, 88, 0</column>
+<column name="grp_PixelStream2AXIBursts_Pipeline_pixels2bytes_fu_219">PixelStream2AXIBursts_Pipeline_pixels2bytes, 0, 0, 618, 953, 0</column>
+</table>
+</item>
+<item name = "DSP"><table name="" hasTotal="0">
+<keys size="3">Instance, Module, Expression</keys>
+</table>
+</item>
+<item name = "Memory"><table name="" hasTotal="1">
+<keys size="10">Memory, Module, BRAM_18K, FF, LUT, URAM, Words, Bits, Banks, W*Bits*Banks</keys>
+<column name="buff_V_U">PixelStream2AXIBursts_buff_V_RAM_AUTO_1R1W, 8, 0, 0, 0, 60, 256, 1, 15360</column>
+</table>
+</item>
+<item name = "FIFO"><table name="" hasTotal="1">
+<keys size="8">Name, BRAM_18K, FF, LUT, URAM, Depth, Bits, Size:D*B</keys>
+</table>
+</item>
+<item name = "Expression"><table name="" hasTotal="1">
+<keys size="7">Variable Name, Operation, DSP, FF, LUT, Bitwidth P0, Bitwidth P1</keys>
+<column name="add_ln107_fu_628_p2">+, 0, 0, 34, 27, 27</column>
+<column name="add_ln77_fu_287_p2">+, 0, 0, 24, 17, 5</column>
+<column name="add_ln91_fu_613_p2">+, 0, 0, 71, 64, 64</column>
+<column name="sub15_i_fu_347_p2">+, 0, 0, 19, 12, 2</column>
+<column name="y_2_fu_589_p2">+, 0, 0, 23, 16, 1</column>
+<column name="ap_ext_blocking_cur_n">and, 0, 0, 2, 1, 1</column>
+<column name="ap_ext_blocking_n">and, 0, 0, 2, 1, 1</column>
+<column name="ap_int_blocking_cur_n">and, 0, 0, 2, 1, 1</column>
+<column name="ap_int_blocking_n">and, 0, 0, 2, 1, 1</column>
+<column name="ap_str_blocking_n">and, 0, 0, 2, 1, 2</column>
+<column name="cmp17_10_i_fu_442_p2">icmp, 0, 0, 10, 6, 4</column>
+<column name="cmp17_11_i_fu_448_p2">icmp, 0, 0, 10, 6, 4</column>
+<column name="cmp17_12_i_fu_454_p2">icmp, 0, 0, 10, 6, 4</column>
+<column name="cmp17_13_i_fu_460_p2">icmp, 0, 0, 10, 6, 4</column>
+<column name="cmp17_14_i_fu_466_p2">icmp, 0, 0, 10, 6, 4</column>
+<column name="cmp17_16_i_fu_488_p2">icmp, 0, 0, 10, 6, 5</column>
+<column name="cmp17_17_i_fu_494_p2">icmp, 0, 0, 10, 6, 5</column>
+<column name="cmp17_18_i_fu_500_p2">icmp, 0, 0, 10, 6, 5</column>
+<column name="cmp17_19_i_fu_506_p2">icmp, 0, 0, 10, 6, 5</column>
+<column name="cmp17_20_i_fu_512_p2">icmp, 0, 0, 10, 6, 5</column>
+<column name="cmp17_21_i_fu_518_p2">icmp, 0, 0, 10, 6, 5</column>
+<column name="cmp17_22_i_fu_524_p2">icmp, 0, 0, 10, 6, 5</column>
+<column name="cmp17_23_i_fu_530_p2">icmp, 0, 0, 10, 6, 5</column>
+<column name="cmp17_24_i_fu_536_p2">icmp, 0, 0, 10, 6, 5</column>
+<column name="cmp17_25_i_fu_542_p2">icmp, 0, 0, 10, 6, 5</column>
+<column name="cmp17_26_i_fu_548_p2">icmp, 0, 0, 10, 6, 5</column>
+<column name="cmp17_27_i_fu_554_p2">icmp, 0, 0, 10, 6, 5</column>
+<column name="cmp17_28_i_fu_560_p2">icmp, 0, 0, 10, 6, 5</column>
+<column name="cmp17_29_i_fu_566_p2">icmp, 0, 0, 10, 6, 5</column>
+<column name="cmp17_2_i_fu_374_p2">icmp, 0, 0, 10, 6, 2</column>
+<column name="cmp17_30_i_fu_572_p2">icmp, 0, 0, 10, 6, 5</column>
+<column name="cmp17_4_i_fu_396_p2">icmp, 0, 0, 10, 6, 3</column>
+<column name="cmp17_5_i_fu_402_p2">icmp, 0, 0, 10, 6, 3</column>
+<column name="cmp17_6_i_fu_408_p2">icmp, 0, 0, 10, 6, 3</column>
+<column name="cmp17_8_i_fu_430_p2">icmp, 0, 0, 10, 6, 4</column>
+<column name="cmp17_9_i_fu_436_p2">icmp, 0, 0, 10, 6, 4</column>
+<column name="cmp17_i_fu_352_p2">icmp, 0, 0, 10, 6, 1</column>
+<column name="icmp15_fu_390_p2">icmp, 0, 0, 9, 4, 1</column>
+<column name="icmp18_fu_424_p2">icmp, 0, 0, 8, 3, 1</column>
+<column name="icmp21_fu_482_p2">icmp, 0, 0, 8, 2, 1</column>
+<column name="icmp_fu_368_p2">icmp, 0, 0, 9, 5, 1</column>
+<column name="icmp_ln80_fu_334_p2">icmp, 0, 0, 9, 5, 1</column>
+<column name="icmp_ln86_fu_584_p2">icmp, 0, 0, 13, 16, 16</column>
+<column name="ap_block_state1">or, 0, 0, 2, 1, 1</column>
+<column name="remainPix_1_fu_339_p3">select, 0, 0, 7, 1, 7</column>
+</table>
+</item>
+<item name = "Multiplexer"><table name="" hasTotal="1">
+<keys size="5">Name, LUT, Input Size, Bits, Total Bits</keys>
+<column name="ap_NS_fsm">351, 76, 1, 76</column>
+<column name="ap_done">9, 2, 1, 2</column>
+<column name="buff_V_address0">14, 3, 6, 18</column>
+<column name="buff_V_ce0">14, 3, 1, 3</column>
+<column name="buff_V_we0">9, 2, 1, 2</column>
+<column name="dst_blk_n">9, 2, 1, 2</column>
+<column name="dst_pixels_read">9, 2, 1, 2</column>
+<column name="gmem1_blk_n_AW">9, 2, 1, 2</column>
+<column name="gmem1_blk_n_B">9, 2, 1, 2</column>
+<column name="height_blk_n">9, 2, 1, 2</column>
+<column name="m_axi_gmem1_AWADDR">14, 3, 64, 192</column>
+<column name="m_axi_gmem1_AWBURST">9, 2, 2, 4</column>
+<column name="m_axi_gmem1_AWCACHE">9, 2, 4, 8</column>
+<column name="m_axi_gmem1_AWID">9, 2, 1, 2</column>
+<column name="m_axi_gmem1_AWLEN">14, 3, 32, 96</column>
+<column name="m_axi_gmem1_AWLOCK">9, 2, 2, 4</column>
+<column name="m_axi_gmem1_AWPROT">9, 2, 3, 6</column>
+<column name="m_axi_gmem1_AWQOS">9, 2, 4, 8</column>
+<column name="m_axi_gmem1_AWREGION">9, 2, 4, 8</column>
+<column name="m_axi_gmem1_AWSIZE">9, 2, 3, 6</column>
+<column name="m_axi_gmem1_AWUSER">9, 2, 1, 2</column>
+<column name="m_axi_gmem1_AWVALID">14, 3, 1, 3</column>
+<column name="m_axi_gmem1_BREADY">14, 3, 1, 3</column>
+<column name="m_axi_gmem1_WVALID">9, 2, 1, 2</column>
+<column name="pixel_fu_172">9, 2, 8, 16</column>
+<column name="stride_blk_n">9, 2, 1, 2</column>
+<column name="width_blk_n">9, 2, 1, 2</column>
+<column name="y_fu_176">9, 2, 16, 32</column>
+<column name="yoffset_fu_180">9, 2, 27, 54</column>
+</table>
+</item>
+<item name = "Register"><table name="" hasTotal="1">
+<keys size="5">Name, FF, LUT, Bits, Const Bits</keys>
+<column name="ap_CS_fsm">75, 0, 75, 0</column>
+<column name="ap_done_reg">1, 0, 1, 0</column>
+<column name="cmp17_10_i_reg_768">1, 0, 1, 0</column>
+<column name="cmp17_11_i_reg_773">1, 0, 1, 0</column>
+<column name="cmp17_12_i_reg_778">1, 0, 1, 0</column>
+<column name="cmp17_13_i_reg_783">1, 0, 1, 0</column>
+<column name="cmp17_14_i_reg_788">1, 0, 1, 0</column>
+<column name="cmp17_16_i_reg_798">1, 0, 1, 0</column>
+<column name="cmp17_17_i_reg_803">1, 0, 1, 0</column>
+<column name="cmp17_18_i_reg_808">1, 0, 1, 0</column>
+<column name="cmp17_19_i_reg_813">1, 0, 1, 0</column>
+<column name="cmp17_20_i_reg_818">1, 0, 1, 0</column>
+<column name="cmp17_21_i_reg_823">1, 0, 1, 0</column>
+<column name="cmp17_22_i_reg_828">1, 0, 1, 0</column>
+<column name="cmp17_23_i_reg_833">1, 0, 1, 0</column>
+<column name="cmp17_24_i_reg_838">1, 0, 1, 0</column>
+<column name="cmp17_25_i_reg_843">1, 0, 1, 0</column>
+<column name="cmp17_26_i_reg_848">1, 0, 1, 0</column>
+<column name="cmp17_27_i_reg_853">1, 0, 1, 0</column>
+<column name="cmp17_28_i_reg_858">1, 0, 1, 0</column>
+<column name="cmp17_29_i_reg_863">1, 0, 1, 0</column>
+<column name="cmp17_2_i_reg_728">1, 0, 1, 0</column>
+<column name="cmp17_30_i_reg_868">1, 0, 1, 0</column>
+<column name="cmp17_4_i_reg_738">1, 0, 1, 0</column>
+<column name="cmp17_5_i_reg_743">1, 0, 1, 0</column>
+<column name="cmp17_6_i_reg_748">1, 0, 1, 0</column>
+<column name="cmp17_8_i_reg_758">1, 0, 1, 0</column>
+<column name="cmp17_9_i_reg_763">1, 0, 1, 0</column>
+<column name="cmp17_i_reg_718">1, 0, 1, 0</column>
+<column name="div38_cast_i_reg_873">11, 0, 27, 16</column>
+<column name="div38_i_reg_698">11, 0, 11, 0</column>
+<column name="dst_read_reg_674">64, 0, 64, 0</column>
+<column name="grp_PixelStream2AXIBursts_Pipeline_bytes2aximm_fu_262_ap_start_reg">1, 0, 1, 0</column>
+<column name="grp_PixelStream2AXIBursts_Pipeline_pixels2bytes_fu_219_ap_start_reg">1, 0, 1, 0</column>
+<column name="icmp15_reg_733">1, 0, 1, 0</column>
+<column name="icmp18_reg_753">1, 0, 1, 0</column>
+<column name="icmp21_reg_793">1, 0, 1, 0</column>
+<column name="icmp_ln80_reg_708">1, 0, 1, 0</column>
+<column name="icmp_reg_723">1, 0, 1, 0</column>
+<column name="loopWidth_reg_690">12, 0, 12, 0</column>
+<column name="pixel_fu_172">8, 0, 8, 0</column>
+<column name="pixel_load_reg_881">8, 0, 8, 0</column>
+<column name="remainPix_reg_684">5, 0, 5, 0</column>
+<column name="sub15_i_reg_713">12, 0, 12, 0</column>
+<column name="trunc_ln1_reg_886">59, 0, 59, 0</column>
+<column name="trunc_ln90_1_reg_679">16, 0, 16, 0</column>
+<column name="y_fu_176">16, 0, 16, 0</column>
+<column name="yoffset_fu_180">27, 0, 27, 0</column>
+<column name="zext_ln77_1_reg_703">12, 0, 32, 20</column>
+</table>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Interface" level="0">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="6">RTL Ports, Dir, Bits, Protocol, Source Object, C Type</keys>
+<column name="ap_clk">in, 1, ap_ctrl_hs, PixelStream2AXIBursts, return value</column>
+<column name="ap_rst">in, 1, ap_ctrl_hs, PixelStream2AXIBursts, return value</column>
+<column name="ap_start">in, 1, ap_ctrl_hs, PixelStream2AXIBursts, return value</column>
+<column name="ap_done">out, 1, ap_ctrl_hs, PixelStream2AXIBursts, return value</column>
+<column name="ap_continue">in, 1, ap_ctrl_hs, PixelStream2AXIBursts, return value</column>
+<column name="ap_idle">out, 1, ap_ctrl_hs, PixelStream2AXIBursts, return value</column>
+<column name="ap_ready">out, 1, ap_ctrl_hs, PixelStream2AXIBursts, return value</column>
+<column name="ap_ext_blocking_n">out, 1, ap_ctrl_hs, PixelStream2AXIBursts, return value</column>
+<column name="ap_str_blocking_n">out, 1, ap_ctrl_hs, PixelStream2AXIBursts, return value</column>
+<column name="ap_int_blocking_n">out, 1, ap_ctrl_hs, PixelStream2AXIBursts, return value</column>
+<column name="dst_pixels_dout">in, 8, ap_fifo, dst_pixels, pointer</column>
+<column name="dst_pixels_num_data_valid">in, 7, ap_fifo, dst_pixels, pointer</column>
+<column name="dst_pixels_fifo_cap">in, 7, ap_fifo, dst_pixels, pointer</column>
+<column name="dst_pixels_empty_n">in, 1, ap_fifo, dst_pixels, pointer</column>
+<column name="dst_pixels_read">out, 1, ap_fifo, dst_pixels, pointer</column>
+<column name="width_dout">in, 32, ap_fifo, width, pointer</column>
+<column name="width_num_data_valid">in, 2, ap_fifo, width, pointer</column>
+<column name="width_fifo_cap">in, 2, ap_fifo, width, pointer</column>
+<column name="width_empty_n">in, 1, ap_fifo, width, pointer</column>
+<column name="width_read">out, 1, ap_fifo, width, pointer</column>
+<column name="height_dout">in, 32, ap_fifo, height, pointer</column>
+<column name="height_num_data_valid">in, 2, ap_fifo, height, pointer</column>
+<column name="height_fifo_cap">in, 2, ap_fifo, height, pointer</column>
+<column name="height_empty_n">in, 1, ap_fifo, height, pointer</column>
+<column name="height_read">out, 1, ap_fifo, height, pointer</column>
+<column name="stride_dout">in, 32, ap_fifo, stride, pointer</column>
+<column name="stride_num_data_valid">in, 3, ap_fifo, stride, pointer</column>
+<column name="stride_fifo_cap">in, 3, ap_fifo, stride, pointer</column>
+<column name="stride_empty_n">in, 1, ap_fifo, stride, pointer</column>
+<column name="stride_read">out, 1, ap_fifo, stride, pointer</column>
+<column name="m_axi_gmem1_AWVALID">out, 1, m_axi, gmem1, pointer</column>
+<column name="m_axi_gmem1_AWREADY">in, 1, m_axi, gmem1, pointer</column>
+<column name="m_axi_gmem1_AWADDR">out, 64, m_axi, gmem1, pointer</column>
+<column name="m_axi_gmem1_AWID">out, 1, m_axi, gmem1, pointer</column>
+<column name="m_axi_gmem1_AWLEN">out, 32, m_axi, gmem1, pointer</column>
+<column name="m_axi_gmem1_AWSIZE">out, 3, m_axi, gmem1, pointer</column>
+<column name="m_axi_gmem1_AWBURST">out, 2, m_axi, gmem1, pointer</column>
+<column name="m_axi_gmem1_AWLOCK">out, 2, m_axi, gmem1, pointer</column>
+<column name="m_axi_gmem1_AWCACHE">out, 4, m_axi, gmem1, pointer</column>
+<column name="m_axi_gmem1_AWPROT">out, 3, m_axi, gmem1, pointer</column>
+<column name="m_axi_gmem1_AWQOS">out, 4, m_axi, gmem1, pointer</column>
+<column name="m_axi_gmem1_AWREGION">out, 4, m_axi, gmem1, pointer</column>
+<column name="m_axi_gmem1_AWUSER">out, 1, m_axi, gmem1, pointer</column>
+<column name="m_axi_gmem1_WVALID">out, 1, m_axi, gmem1, pointer</column>
+<column name="m_axi_gmem1_WREADY">in, 1, m_axi, gmem1, pointer</column>
+<column name="m_axi_gmem1_WDATA">out, 256, m_axi, gmem1, pointer</column>
+<column name="m_axi_gmem1_WSTRB">out, 32, m_axi, gmem1, pointer</column>
+<column name="m_axi_gmem1_WLAST">out, 1, m_axi, gmem1, pointer</column>
+<column name="m_axi_gmem1_WID">out, 1, m_axi, gmem1, pointer</column>
+<column name="m_axi_gmem1_WUSER">out, 1, m_axi, gmem1, pointer</column>
+<column name="m_axi_gmem1_ARVALID">out, 1, m_axi, gmem1, pointer</column>
+<column name="m_axi_gmem1_ARREADY">in, 1, m_axi, gmem1, pointer</column>
+<column name="m_axi_gmem1_ARADDR">out, 64, m_axi, gmem1, pointer</column>
+<column name="m_axi_gmem1_ARID">out, 1, m_axi, gmem1, pointer</column>
+<column name="m_axi_gmem1_ARLEN">out, 32, m_axi, gmem1, pointer</column>
+<column name="m_axi_gmem1_ARSIZE">out, 3, m_axi, gmem1, pointer</column>
+<column name="m_axi_gmem1_ARBURST">out, 2, m_axi, gmem1, pointer</column>
+<column name="m_axi_gmem1_ARLOCK">out, 2, m_axi, gmem1, pointer</column>
+<column name="m_axi_gmem1_ARCACHE">out, 4, m_axi, gmem1, pointer</column>
+<column name="m_axi_gmem1_ARPROT">out, 3, m_axi, gmem1, pointer</column>
+<column name="m_axi_gmem1_ARQOS">out, 4, m_axi, gmem1, pointer</column>
+<column name="m_axi_gmem1_ARREGION">out, 4, m_axi, gmem1, pointer</column>
+<column name="m_axi_gmem1_ARUSER">out, 1, m_axi, gmem1, pointer</column>
+<column name="m_axi_gmem1_RVALID">in, 1, m_axi, gmem1, pointer</column>
+<column name="m_axi_gmem1_RREADY">out, 1, m_axi, gmem1, pointer</column>
+<column name="m_axi_gmem1_RDATA">in, 256, m_axi, gmem1, pointer</column>
+<column name="m_axi_gmem1_RLAST">in, 1, m_axi, gmem1, pointer</column>
+<column name="m_axi_gmem1_RID">in, 1, m_axi, gmem1, pointer</column>
+<column name="m_axi_gmem1_RFIFONUM">in, 9, m_axi, gmem1, pointer</column>
+<column name="m_axi_gmem1_RUSER">in, 1, m_axi, gmem1, pointer</column>
+<column name="m_axi_gmem1_RRESP">in, 2, m_axi, gmem1, pointer</column>
+<column name="m_axi_gmem1_BVALID">in, 1, m_axi, gmem1, pointer</column>
+<column name="m_axi_gmem1_BREADY">out, 1, m_axi, gmem1, pointer</column>
+<column name="m_axi_gmem1_BRESP">in, 2, m_axi, gmem1, pointer</column>
+<column name="m_axi_gmem1_BID">in, 1, m_axi, gmem1, pointer</column>
+<column name="m_axi_gmem1_BUSER">in, 1, m_axi, gmem1, pointer</column>
+<column name="dst_dout">in, 64, ap_fifo, dst, pointer</column>
+<column name="dst_num_data_valid">in, 3, ap_fifo, dst, pointer</column>
+<column name="dst_fifo_cap">in, 3, ap_fifo, dst, pointer</column>
+<column name="dst_empty_n">in, 1, ap_fifo, dst, pointer</column>
+<column name="dst_read">out, 1, ap_fifo, dst, pointer</column>
+</table>
+</item>
+</section>
+</profile>

@@ -1,0 +1,2 @@
+performing high-level synthesis for kernel: Filter2DKernel
+Log file: /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/_x/Filter2DKernel.hw_emu/Filter2DKernel/vitis_hls.log

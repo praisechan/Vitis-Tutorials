@@ -1,0 +1,35 @@
+INFO: [v++ 60-1306] Additional information associated with this v++ compile can be found at:
+	Reports: /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/_x/reports/Filter2DKernel.hw_emu
+	Log files: /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/_x/logs/Filter2DKernel.hw_emu
+INFO: [v++ 60-1548] Creating build summary session with primary output /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/Filter2DKernel.hw_emu.xo.compile_summary, at Mon Nov  4 21:36:53 2024
+INFO: [v++ 60-1315] Creating rulecheck session with output '/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/_x/reports/Filter2DKernel.hw_emu/v++_compile_Filter2DKernel.hw_emu_guidance.html', at Mon Nov  4 21:36:53 2024
+INFO: [v++ 60-895]   Target platform: /opt/xilinx/platforms/xilinx_u55c_gen3x16_xdma_3_202210_1/xilinx_u55c_gen3x16_xdma_3_202210_1.xpfm
+INFO: [v++ 60-1578]   This platform contains Xilinx Shell Archive '/opt/xilinx/platforms/xilinx_u55c_gen3x16_xdma_3_202210_1/hw/hw.xsa'
+INFO: [v++ 74-78] Compiler Version string: 2022.2
+INFO: [v++ 60-585] Compiling for hardware emulation target
+INFO: [v++ 60-423]   Target device: xilinx_u55c_gen3x16_xdma_3_202210_1
+INFO: [v++ 60-242] Creating kernel: 'Filter2DKernel'
+
+===>The following messages were generated while  performing high-level synthesis for kernel: Filter2DKernel Log file: /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/_x/Filter2DKernel.hw_emu/Filter2DKernel/vitis_hls.log :
+INFO: [v++ 204-61] Pipelining loop 'aximm2bytes'.
+INFO: [v++ 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 3, loop 'aximm2bytes'
+INFO: [v++ 204-61] Pipelining loop 'bytes2pixels'.
+INFO: [v++ 200-1470] Pipelining result : Target II = 32, Final II = 32, Depth = 33, loop 'bytes2pixels'
+INFO: [v++ 204-61] Pipelining loop 'Loop 1'.
+INFO: [v++ 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 73, loop 'Loop 1'
+INFO: [v++ 204-61] Pipelining loop 'VITIS_LOOP_30_1_VITIS_LOOP_32_2'.
+INFO: [v++ 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 20, loop 'VITIS_LOOP_30_1_VITIS_LOOP_32_2'
+INFO: [v++ 204-61] Pipelining loop 'pixels2bytes'.
+INFO: [v++ 200-1470] Pipelining result : Target II = 32, Final II = 32, Depth = 34, loop 'pixels2bytes'
+INFO: [v++ 204-61] Pipelining loop 'bytes2aximm'.
+INFO: [v++ 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 3, loop 'bytes2aximm'
+INFO: [v++ 200-790] **** Loop Constraint Status: All loop constraints were satisfied.
+INFO: [v++ 200-789] **** Estimated Fmax: 411.00 MHz
+INFO: [v++ 60-594] Finished kernel compilation
+INFO: [v++ 60-244] Generating system estimate report...
+INFO: [v++ 60-1092] Generated system estimate report: /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/_x/reports/Filter2DKernel.hw_emu/system_estimate_Filter2DKernel.hw_emu.xtxt
+INFO: [v++ 60-586] Created Filter2DKernel.hw_emu.xo
+INFO: [v++ 60-2343] Use the vitis_analyzer tool to visualize and navigate the relevant reports. Run the following command. 
+    vitis_analyzer /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/Filter2DKernel.hw_emu.xo.compile_summary 
+INFO: [v++ 60-791] Total elapsed time: 0h 1m 19s
+INFO: [v++ 60-1653] Closing dispatch client.

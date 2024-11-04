@@ -2,7 +2,7 @@ VPP := v++
 EMCONFIGUTIL := $(XILINX_VITIS)/bin/emconfigutil
 TARGET := sw_emu
 LAB := run1
-DEVICE := xilinx_u250_gen3x16_xdma_4_1_202210_1
+DEVICE := xilinx_u55c_gen3x16_xdma_3_202210_1
 
 # sources
 #HOST_SRC := src/host/*.cpp

@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="filter2d.hw_emu">
+  <platform vendor="xilinx" boardid="u55c" name="gen3x16_xdma_3" featureRomTime="0">
+    <version major="202210" minor="1"/>
+    <description/>
+    <board name="xilinx.com:au55c:1.0" vendor="xilinx.com" fpga="xcu55c-fsvh2892-2L-e">
+      <interfaces/>
+      <images>
+        <image name="au55c_image.png" type="HDPI"/>
+        <image name="" type="MDPI"/>
+        <image name="" type="LDPI"/>
+      </images>
+      <id>
+        <vendor/>
+        <device/>
+        <subsystem/>
+      </id>
+    </board>
+    <build_flow/>
+    <host architecture="unknown"/>
+    <device name="fpga0" fpgaDevice="virtexuplusHBM:xcu55c:fsvh2892:-2L:e" addrWidth="0">
+      <core name="OCL_REGION_0" target="hw_em" type="clc_region" clockFreq="0MHz" numComputeUnits="60">
+        <kernelClocks>
+          <clock port="DATA_CLK" frequency="300.000000MHz" name="kernel_clk/clk"/>
+          <clock port="KERNEL_CLK" frequency="300.000000MHz" name="kernel_clk/clk"/>
+        </kernelClocks>
+        <kernel name="Filter2DKernel" language="c" vlnv="xilinx.com:hls:Filter2DKernel:1.0" preferredWorkGroupSizeMultiple="0" workGroupSize="1" debug="true" interrupt="true" hwControlProtocol="ap_ctrl_chain" countedAutoRestart="0" deadlockDetection="local" mailbox="none" swReset="false">
+          <module name="Filter2DKernel">
+            <module name="entry_proc" instName="entry_proc_U0" type="DataflowHS">
+              <rtlPort name="dst" object="dst" protocol="ap_none"/>
+            </module>
+            <module name="AXIBursts2PixelStream" instName="AXIBursts2PixelStream_U0" type="DataflowHS">
+              <rtlPort name="m_axi_gmem0_AWVALID" object="gmem0" protocol="m_axi"/>
+              <rtlPort name="src" object="src" protocol="ap_none"/>
+              <rtlPort name="width" object="width" protocol="ap_none"/>
+              <rtlPort name="height" object="height" protocol="ap_none"/>
+              <rtlPort name="stride" object="stride" protocol="ap_none"/>
+              <module name="AXIBursts2PixelStream_Pipeline_aximm2bytes" instName="grp_AXIBursts2PixelStream_Pipeline_aximm2bytes_fu_222" type="NonDataflowHS">
+                <rtlPort name="m_axi_gmem0_AWVALID" object="gmem0" protocol="m_axi"/>
+                <rtlPort name="sext_ln38" object="sext_ln38" protocol="ap_none"/>
+                <rtlPort name="loopWidth" object="loopWidth" protocol="ap_none"/>
+                <rtlPort name="buff_V_d0" object="buff_V" protocol="ap_memory"/>
+              </module>
+              <module name="AXIBursts2PixelStream_Pipeline_bytes2pixels" instName="grp_AXIBursts2PixelStream_Pipeline_bytes2pixels_fu_231" type="NonDataflowHS">
+                <rtlPort name="loopWidth" object="loopWidth" protocol="ap_none"/>
+                <rtlPort name="icmp_ln28" object="icmp_ln28" protocol="ap_none"/>
+                <rtlPort name="cmp34_30_i" object="cmp34_30_i" protocol="ap_none"/>
+                <rtlPort name="cmp34_29_i" object="cmp34_29_i" protocol="ap_none"/>
+                <rtlPort name="cmp34_28_i" object="cmp34_28_i" protocol="ap_none"/>
+                <rtlPort name="cmp34_27_i" object="cmp34_27_i" protocol="ap_none"/>
+                <rtlPort name="cmp34_26_i" object="cmp34_26_i" protocol="ap_none"/>
+                <rtlPort name="cmp34_25_i" object="cmp34_25_i" protocol="ap_none"/>
+                <rtlPort name="cmp34_24_i" object="cmp34_24_i" protocol="ap_none"/>
+                <rtlPort name="cmp34_23_i" object="cmp34_23_i" protocol="ap_none"/>
+                <rtlPort name="cmp34_22_i" object="cmp34_22_i" protocol="ap_none"/>
+                <rtlPort name="cmp34_21_i" object="cmp34_21_i" protocol="ap_none"/>
+                <rtlPort name="cmp34_20_i" object="cmp34_20_i" protocol="ap_none"/>
+                <rtlPort name="cmp34_19_i" object="cmp34_19_i" protocol="ap_none"/>
+                <rtlPort name="cmp34_18_i" object="cmp34_18_i" protocol="ap_none"/>
+                <rtlPort name="cmp34_17_i" object="cmp34_17_i" protocol="ap_none"/>
+                <rtlPort name="cmp34_16_i" object="cmp34_16_i" protocol="ap_none"/>
+                <rtlPort name="cmp34_15_i" object="cmp34_15_i" protocol="ap_none"/>
+                <rtlPort name="cmp34_14_i" object="cmp34_14_i" protocol="ap_none"/>
+                <rtlPort name="cmp34_13_i" object="cmp34_13_i" protocol="ap_none"/>
+                <rtlPort name="cmp34_12_i" object="cmp34_12_i" protocol="ap_none"/>
+                <rtlPort name="cmp34_11_i" object="cmp34_11_i" protocol="ap_none"/>
+                <rtlPort name="cmp34_10_i" object="cmp34_10_i" protocol="ap_none"/>
+                <rtlPort name="cmp34_9_i" object="cmp34_9_i" protocol="ap_none"/>
+                <rtlPort name="cmp34_8_i" object="cmp34_8_i" protocol="ap_none"/>
+                <rtlPort name="cmp34_7_i" object="cmp34_7_i" protocol="ap_none"/>
+                <rtlPort name="cmp34_6_i" object="cmp34_6_i" protocol="ap_none"/>
+                <rtlPort name="cmp34_5_i" object="cmp34_5_i" protocol="ap_none"/>
+                <rtlPort name="cmp34_4_i" object="cmp34_4_i" protocol="ap_none"/>
+                <rtlPort name="cmp34_3_i" object="cmp34_3_i" protocol="ap_none"/>
+                <rtlPort name="cmp34_2_i" object="cmp34_2_i" protocol="ap_none"/>
+                <rtlPort name="cmp34_1_i" object="cmp34_1_i" protocol="ap_none"/>
+                <rtlPort name="buff_V_q0" object="buff_V" protocol="ap_memory"/>
+                <rtlPort name="sext_ln33" object="sext_ln33" protocol="ap_none"/>
+                <rtlPort name="cmp34_i" object="cmp34_i" protocol="ap_none"/>
+              </module>
+            </module>
+            <module name="Filter2D" instName="Filter2D_U0" type="DataflowHS">
+              <rtlPort name="m_axi_gmem1_AWVALID" object="gmem1" protocol="m_axi"/>
+              <rtlPort name="coeffs" object="coeffs" protocol="ap_none"/>
+              <rtlPort name="width" object="width" protocol="ap_none"/>
+              <rtlPort name="height" object="height" protocol="ap_none"/>
+              <module name="Filter2D_Pipeline_1" instName="grp_Filter2D_Pipeline_1_fu_1054" type="NonDataflowHS">
+                <rtlPort name="m_axi_gmem1_AWVALID" object="gmem1" protocol="m_axi"/>
+                <rtlPort name="coeffs" object="coeffs" protocol="ap_none"/>
+                <rtlPort name="srcCoeffs_cast_i" object="srcCoeffs_cast_i" protocol="ap_none"/>
+              </module>
+              <module name="Filter2D_Pipeline_VITIS_LOOP_30_1_VITIS_LOOP_32_2" instName="grp_Filter2D_Pipeline_VITIS_LOOP_30_1_VITIS_LOOP_32_2_fu_1288" type="NonDataflowHS">
+                <rtlPort name="trunc_ln90_3" object="trunc_ln90_3" protocol="ap_none"/>
+                <rtlPort name="zext_ln18" object="zext_ln18" protocol="ap_none"/>
+                <rtlPort name="add_ln18" object="add_ln18" protocol="ap_none"/>
+                <rtlPort name="mul_ln18" object="mul_ln18" protocol="ap_none"/>
+                <rtlPort name="zext_ln17" object="zext_ln17" protocol="ap_none"/>
+                <rtlPort name="trunc_ln" object="trunc_ln" protocol="ap_none"/>
+                <rtlPort name="coeffs_15_cast_i" object="coeffs_15_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_16_cast_i" object="coeffs_16_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_17_cast_i" object="coeffs_17_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_18_cast_i" object="coeffs_18_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_19_cast_i" object="coeffs_19_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_20_cast_i" object="coeffs_20_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_21_cast_i" object="coeffs_21_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_22_cast_i" object="coeffs_22_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_23_cast_i" object="coeffs_23_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_24_cast_i" object="coeffs_24_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_25_cast_i" object="coeffs_25_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_26_cast_i" object="coeffs_26_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_27_cast_i" object="coeffs_27_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_28_cast_i" object="coeffs_28_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_29_cast_i" object="coeffs_29_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_30_cast_i" object="coeffs_30_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_31_cast_i" object="coeffs_31_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_32_cast_i" object="coeffs_32_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_33_cast_i" object="coeffs_33_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_34_cast_i" object="coeffs_34_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_35_cast_i" object="coeffs_35_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_36_cast_i" object="coeffs_36_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_37_cast_i" object="coeffs_37_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_38_cast_i" object="coeffs_38_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_39_cast_i" object="coeffs_39_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_40_cast_i" object="coeffs_40_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_41_cast_i" object="coeffs_41_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_42_cast_i" object="coeffs_42_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_43_cast_i" object="coeffs_43_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_44_cast_i" object="coeffs_44_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_45_cast_i" object="coeffs_45_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_46_cast_i" object="coeffs_46_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_47_cast_i" object="coeffs_47_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_48_cast_i" object="coeffs_48_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_49_cast_i" object="coeffs_49_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_50_cast_i" object="coeffs_50_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_51_cast_i" object="coeffs_51_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_52_cast_i" object="coeffs_52_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_53_cast_i" object="coeffs_53_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_54_cast_i" object="coeffs_54_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_55_cast_i" object="coeffs_55_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_56_cast_i" object="coeffs_56_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_57_cast_i" object="coeffs_57_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_58_cast_i" object="coeffs_58_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_59_cast_i" object="coeffs_59_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_60_cast_i" object="coeffs_60_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_61_cast_i" object="coeffs_61_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_62_cast_i" object="coeffs_62_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_63_cast_i" object="coeffs_63_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_64_cast_i" object="coeffs_64_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_65_cast_i" object="coeffs_65_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_66_cast_i" object="coeffs_66_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_67_cast_i" object="coeffs_67_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_68_cast_i" object="coeffs_68_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_69_cast_i" object="coeffs_69_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_70_cast_i" object="coeffs_70_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_71_cast_i" object="coeffs_71_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_72_cast_i" object="coeffs_72_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_73_cast_i" object="coeffs_73_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_74_cast_i" object="coeffs_74_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_75_cast_i" object="coeffs_75_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_76_cast_i" object="coeffs_76_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_77_cast_i" object="coeffs_77_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_78_cast_i" object="coeffs_78_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_79_cast_i" object="coeffs_79_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_80_cast_i" object="coeffs_80_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_81_cast_i" object="coeffs_81_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_82_cast_i" object="coeffs_82_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_83_cast_i" object="coeffs_83_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_84_cast_i" object="coeffs_84_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_85_cast_i" object="coeffs_85_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_86_cast_i" object="coeffs_86_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_87_cast_i" object="coeffs_87_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_88_cast_i" object="coeffs_88_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_89_cast_i" object="coeffs_89_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_90_cast_i" object="coeffs_90_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_91_cast_i" object="coeffs_91_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_92_cast_i" object="coeffs_92_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_93_cast_i" object="coeffs_93_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_94_cast_i" object="coeffs_94_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_95_cast_i" object="coeffs_95_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_96_cast_i" object="coeffs_96_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_97_cast_i" object="coeffs_97_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_98_cast_i" object="coeffs_98_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_99_cast_i" object="coeffs_99_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_100_cast_i" object="coeffs_100_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_101_cast_i" object="coeffs_101_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_102_cast_i" object="coeffs_102_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_103_cast_i" object="coeffs_103_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_104_cast_i" object="coeffs_104_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_105_cast_i" object="coeffs_105_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_106_cast_i" object="coeffs_106_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_107_cast_i" object="coeffs_107_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_108_cast_i" object="coeffs_108_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_109_cast_i" object="coeffs_109_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_110_cast_i" object="coeffs_110_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_111_cast_i" object="coeffs_111_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_112_cast_i" object="coeffs_112_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_113_cast_i" object="coeffs_113_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_114_cast_i" object="coeffs_114_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_115_cast_i" object="coeffs_115_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_116_cast_i" object="coeffs_116_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_117_cast_i" object="coeffs_117_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_118_cast_i" object="coeffs_118_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_119_cast_i" object="coeffs_119_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_120_cast_i" object="coeffs_120_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_121_cast_i" object="coeffs_121_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_122_cast_i" object="coeffs_122_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_123_cast_i" object="coeffs_123_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_124_cast_i" object="coeffs_124_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_125_cast_i" object="coeffs_125_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_126_cast_i" object="coeffs_126_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_127_cast_i" object="coeffs_127_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_128_cast_i" object="coeffs_128_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_129_cast_i" object="coeffs_129_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_130_cast_i" object="coeffs_130_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_131_cast_i" object="coeffs_131_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_132_cast_i" object="coeffs_132_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_133_cast_i" object="coeffs_133_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_134_cast_i" object="coeffs_134_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_135_cast_i" object="coeffs_135_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_136_cast_i" object="coeffs_136_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_137_cast_i" object="coeffs_137_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_138_cast_i" object="coeffs_138_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_139_cast_i" object="coeffs_139_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_140_cast_i" object="coeffs_140_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_141_cast_i" object="coeffs_141_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_142_cast_i" object="coeffs_142_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_143_cast_i" object="coeffs_143_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_144_cast_i" object="coeffs_144_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_145_cast_i" object="coeffs_145_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_146_cast_i" object="coeffs_146_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_147_cast_i" object="coeffs_147_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_148_cast_i" object="coeffs_148_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_149_cast_i" object="coeffs_149_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_150_cast_i" object="coeffs_150_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_151_cast_i" object="coeffs_151_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_152_cast_i" object="coeffs_152_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_153_cast_i" object="coeffs_153_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_154_cast_i" object="coeffs_154_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_155_cast_i" object="coeffs_155_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_156_cast_i" object="coeffs_156_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_157_cast_i" object="coeffs_157_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_158_cast_i" object="coeffs_158_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_159_cast_i" object="coeffs_159_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_160_cast_i" object="coeffs_160_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_161_cast_i" object="coeffs_161_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_162_cast_i" object="coeffs_162_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_163_cast_i" object="coeffs_163_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_164_cast_i" object="coeffs_164_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_165_cast_i" object="coeffs_165_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_166_cast_i" object="coeffs_166_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_167_cast_i" object="coeffs_167_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_168_cast_i" object="coeffs_168_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_169_cast_i" object="coeffs_169_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_170_cast_i" object="coeffs_170_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_171_cast_i" object="coeffs_171_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_172_cast_i" object="coeffs_172_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_173_cast_i" object="coeffs_173_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_174_cast_i" object="coeffs_174_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_175_cast_i" object="coeffs_175_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_176_cast_i" object="coeffs_176_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_177_cast_i" object="coeffs_177_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_178_cast_i" object="coeffs_178_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_179_cast_i" object="coeffs_179_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_180_cast_i" object="coeffs_180_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_181_cast_i" object="coeffs_181_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_182_cast_i" object="coeffs_182_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_183_cast_i" object="coeffs_183_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_184_cast_i" object="coeffs_184_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_185_cast_i" object="coeffs_185_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_186_cast_i" object="coeffs_186_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_187_cast_i" object="coeffs_187_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_188_cast_i" object="coeffs_188_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_189_cast_i" object="coeffs_189_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_190_cast_i" object="coeffs_190_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_191_cast_i" object="coeffs_191_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_192_cast_i" object="coeffs_192_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_193_cast_i" object="coeffs_193_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_194_cast_i" object="coeffs_194_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_195_cast_i" object="coeffs_195_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_196_cast_i" object="coeffs_196_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_197_cast_i" object="coeffs_197_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_198_cast_i" object="coeffs_198_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_199_cast_i" object="coeffs_199_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_200_cast_i" object="coeffs_200_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_201_cast_i" object="coeffs_201_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_202_cast_i" object="coeffs_202_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_203_cast_i" object="coeffs_203_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_204_cast_i" object="coeffs_204_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_205_cast_i" object="coeffs_205_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_206_cast_i" object="coeffs_206_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_207_cast_i" object="coeffs_207_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_208_cast_i" object="coeffs_208_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_209_cast_i" object="coeffs_209_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_210_cast_i" object="coeffs_210_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_211_cast_i" object="coeffs_211_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_212_cast_i" object="coeffs_212_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_213_cast_i" object="coeffs_213_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_214_cast_i" object="coeffs_214_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_215_cast_i" object="coeffs_215_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_216_cast_i" object="coeffs_216_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_217_cast_i" object="coeffs_217_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_218_cast_i" object="coeffs_218_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_219_cast_i" object="coeffs_219_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_220_cast_i" object="coeffs_220_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_221_cast_i" object="coeffs_221_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_222_cast_i" object="coeffs_222_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_223_cast_i" object="coeffs_223_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_224_cast_i" object="coeffs_224_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_14_cast_i" object="coeffs_14_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_13_cast_i" object="coeffs_13_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_12_cast_i" object="coeffs_12_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_11_cast_i" object="coeffs_11_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_10_cast_i" object="coeffs_10_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_9_cast_i" object="coeffs_9_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_8_cast_i" object="coeffs_8_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_7_cast_i" object="coeffs_7_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_6_cast_i" object="coeffs_6_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_5_cast_i" object="coeffs_5_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_4_cast_i" object="coeffs_4_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_3_cast_i" object="coeffs_3_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_2_cast_i" object="coeffs_2_cast_i" protocol="ap_none"/>
+                <rtlPort name="coeffs_1_cast_i" object="coeffs_1_cast_i" protocol="ap_none"/>
+                <rtlPort name="sext_ln30" object="sext_ln30" protocol="ap_none"/>
+                <rtlPort name="pixelWindow_mLineBuffer_val_15_d0" object="pixelWindow_mLineBuffer_val_15" protocol="ap_memory"/>
+                <rtlPort name="pixelWindow_mLineBuffer_val_15_q1" object="pixelWindow_mLineBuffer_val_15" protocol="ap_memory"/>
+                <rtlPort name="pixelWindow_mLineBuffer_val_d0" object="pixelWindow_mLineBuffer_val" protocol="ap_memory"/>
+                <rtlPort name="pixelWindow_mLineBuffer_val_q1" object="pixelWindow_mLineBuffer_val" protocol="ap_memory"/>
+                <rtlPort name="pixelWindow_mLineBuffer_val_16_d0" object="pixelWindow_mLineBuffer_val_16" protocol="ap_memory"/>
+                <rtlPort name="pixelWindow_mLineBuffer_val_16_q1" object="pixelWindow_mLineBuffer_val_16" protocol="ap_memory"/>
+                <rtlPort name="pixelWindow_mLineBuffer_val_17_d0" object="pixelWindow_mLineBuffer_val_17" protocol="ap_memory"/>
+                <rtlPort name="pixelWindow_mLineBuffer_val_17_q1" object="pixelWindow_mLineBuffer_val_17" protocol="ap_memory"/>
+                <rtlPort name="pixelWindow_mLineBuffer_val_18_d0" object="pixelWindow_mLineBuffer_val_18" protocol="ap_memory"/>
+                <rtlPort name="pixelWindow_mLineBuffer_val_18_q1" object="pixelWindow_mLineBuffer_val_18" protocol="ap_memory"/>
+                <rtlPort name="pixelWindow_mLineBuffer_val_19_d0" object="pixelWindow_mLineBuffer_val_19" protocol="ap_memory"/>
+                <rtlPort name="pixelWindow_mLineBuffer_val_19_q1" object="pixelWindow_mLineBuffer_val_19" protocol="ap_memory"/>
+                <rtlPort name="pixelWindow_mLineBuffer_val_20_d0" object="pixelWindow_mLineBuffer_val_20" protocol="ap_memory"/>
+                <rtlPort name="pixelWindow_mLineBuffer_val_20_q1" object="pixelWindow_mLineBuffer_val_20" protocol="ap_memory"/>
+                <rtlPort name="pixelWindow_mLineBuffer_val_21_d0" object="pixelWindow_mLineBuffer_val_21" protocol="ap_memory"/>
+                <rtlPort name="pixelWindow_mLineBuffer_val_21_q1" object="pixelWindow_mLineBuffer_val_21" protocol="ap_memory"/>
+                <rtlPort name="pixelWindow_mLineBuffer_val_22_d0" object="pixelWindow_mLineBuffer_val_22" protocol="ap_memory"/>
+                <rtlPort name="pixelWindow_mLineBuffer_val_22_q1" object="pixelWindow_mLineBuffer_val_22" protocol="ap_memory"/>
+                <rtlPort name="pixelWindow_mLineBuffer_val_23_d0" object="pixelWindow_mLineBuffer_val_23" protocol="ap_memory"/>
+                <rtlPort name="pixelWindow_mLineBuffer_val_23_q1" object="pixelWindow_mLineBuffer_val_23" protocol="ap_memory"/>
+                <rtlPort name="pixelWindow_mLineBuffer_val_24_d0" object="pixelWindow_mLineBuffer_val_24" protocol="ap_memory"/>
+                <rtlPort name="pixelWindow_mLineBuffer_val_24_q1" object="pixelWindow_mLineBuffer_val_24" protocol="ap_memory"/>
+                <rtlPort name="pixelWindow_mLineBuffer_val_25_d0" object="pixelWindow_mLineBuffer_val_25" protocol="ap_memory"/>
+                <rtlPort name="pixelWindow_mLineBuffer_val_25_q1" object="pixelWindow_mLineBuffer_val_25" protocol="ap_memory"/>
+                <rtlPort name="pixelWindow_mLineBuffer_val_26_d0" object="pixelWindow_mLineBuffer_val_26" protocol="ap_memory"/>
+                <rtlPort name="pixelWindow_mLineBuffer_val_26_q1" object="pixelWindow_mLineBuffer_val_26" protocol="ap_memory"/>
+                <rtlPort name="pixelWindow_mLineBuffer_val_27_d0" object="pixelWindow_mLineBuffer_val_27" protocol="ap_memory"/>
+                <rtlPort name="pixelWindow_mLineBuffer_val_27_q1" object="pixelWindow_mLineBuffer_val_27" protocol="ap_memory"/>
+                <rtlPort name="pixelWindow_mLineBuffer_val_28_d0" object="pixelWindow_mLineBuffer_val_28" protocol="ap_memory"/>
+                <rtlPort name="pixelWindow_mLineBuffer_val_28_q1" object="pixelWindow_mLineBuffer_val_28" protocol="ap_memory"/>
+              </module>
+            </module>
+            <module name="PixelStream2AXIBursts" instName="PixelStream2AXIBursts_U0" type="DataflowHS">
+              <rtlPort name="m_axi_gmem1_AWVALID" object="gmem1" protocol="m_axi"/>
+              <module name="PixelStream2AXIBursts_Pipeline_pixels2bytes" instName="grp_PixelStream2AXIBursts_Pipeline_pixels2bytes_fu_219" type="NonDataflowHS">
+                <rtlPort name="pixel" object="pixel" protocol="ap_none"/>
+                <rtlPort name="loopWidth" object="loopWidth" protocol="ap_none"/>
+                <rtlPort name="buff_V_d0" object="buff_V" protocol="ap_memory"/>
+                <rtlPort name="icmp_ln80" object="icmp_ln80" protocol="ap_none"/>
+                <rtlPort name="cmp17_30_i" object="cmp17_30_i" protocol="ap_none"/>
+                <rtlPort name="cmp17_29_i" object="cmp17_29_i" protocol="ap_none"/>
+                <rtlPort name="cmp17_28_i" object="cmp17_28_i" protocol="ap_none"/>
+                <rtlPort name="cmp17_27_i" object="cmp17_27_i" protocol="ap_none"/>
+                <rtlPort name="cmp17_26_i" object="cmp17_26_i" protocol="ap_none"/>
+                <rtlPort name="cmp17_25_i" object="cmp17_25_i" protocol="ap_none"/>
+                <rtlPort name="cmp17_24_i" object="cmp17_24_i" protocol="ap_none"/>
+                <rtlPort name="cmp17_23_i" object="cmp17_23_i" protocol="ap_none"/>
+                <rtlPort name="cmp17_22_i" object="cmp17_22_i" protocol="ap_none"/>
+                <rtlPort name="cmp17_21_i" object="cmp17_21_i" protocol="ap_none"/>
+                <rtlPort name="cmp17_20_i" object="cmp17_20_i" protocol="ap_none"/>
+                <rtlPort name="cmp17_19_i" object="cmp17_19_i" protocol="ap_none"/>
+                <rtlPort name="cmp17_18_i" object="cmp17_18_i" protocol="ap_none"/>
+                <rtlPort name="cmp17_17_i" object="cmp17_17_i" protocol="ap_none"/>
+                <rtlPort name="cmp17_16_i" object="cmp17_16_i" protocol="ap_none"/>
+                <rtlPort name="cmp17_15_i" object="cmp17_15_i" protocol="ap_none"/>
+                <rtlPort name="cmp17_14_i" object="cmp17_14_i" protocol="ap_none"/>
+                <rtlPort name="cmp17_13_i" object="cmp17_13_i" protocol="ap_none"/>
+                <rtlPort name="cmp17_12_i" object="cmp17_12_i" protocol="ap_none"/>
+                <rtlPort name="cmp17_11_i" object="cmp17_11_i" protocol="ap_none"/>
+                <rtlPort name="cmp17_10_i" object="cmp17_10_i" protocol="ap_none"/>
+                <rtlPort name="cmp17_9_i" object="cmp17_9_i" protocol="ap_none"/>
+                <rtlPort name="cmp17_8_i" object="cmp17_8_i" protocol="ap_none"/>
+                <rtlPort name="cmp17_7_i" object="cmp17_7_i" protocol="ap_none"/>
+                <rtlPort name="cmp17_6_i" object="cmp17_6_i" protocol="ap_none"/>
+                <rtlPort name="cmp17_5_i" object="cmp17_5_i" protocol="ap_none"/>
+                <rtlPort name="cmp17_4_i" object="cmp17_4_i" protocol="ap_none"/>
+                <rtlPort name="cmp17_3_i" object="cmp17_3_i" protocol="ap_none"/>
+                <rtlPort name="cmp17_2_i" object="cmp17_2_i" protocol="ap_none"/>
+                <rtlPort name="cmp17_1_i" object="cmp17_1_i" protocol="ap_none"/>
+                <rtlPort name="sext_ln86" object="sext_ln86" protocol="ap_none"/>
+                <rtlPort name="cmp17_i" object="cmp17_i" protocol="ap_none"/>
+              </module>
+              <module name="PixelStream2AXIBursts_Pipeline_bytes2aximm" instName="grp_PixelStream2AXIBursts_Pipeline_bytes2aximm_fu_262" type="NonDataflowHS">
+                <rtlPort name="m_axi_gmem1_AWVALID" object="gmem1" protocol="m_axi"/>
+                <rtlPort name="sext_ln102" object="sext_ln102" protocol="ap_none"/>
+                <rtlPort name="loopWidth" object="loopWidth" protocol="ap_none"/>
+                <rtlPort name="buff_V_q0" object="buff_V" protocol="ap_memory"/>
+              </module>
+            </module>
+          </module>
+          <port name="M_AXI_GMEM1" mode="master" range="0xFFFFFFFF" dataWidth="256" portType="addressable" base="0x0"/>
+          <port name="M_AXI_GMEM0" mode="master" range="0xFFFFFFFF" dataWidth="256" portType="addressable" base="0x0"/>
+          <port name="S_AXI_CONTROL" mode="slave" range="0x4C" dataWidth="32" portType="addressable" base="0x0"/>
+          <arg name="coeffs" addressQualifier="1" id="0" port="M_AXI_GMEM1" size="0x8" offset="0x10" hostOffset="0x0" hostSize="0x8" type="void*"/>
+          <arg name="src" addressQualifier="1" id="1" port="M_AXI_GMEM0" size="0x8" offset="0x1C" hostOffset="0x0" hostSize="0x8" type="void*"/>
+          <arg name="width" addressQualifier="0" id="2" port="S_AXI_CONTROL" size="0x4" offset="0x28" hostOffset="0x0" hostSize="0x4" type="unsigned int"/>
+          <arg name="height" addressQualifier="0" id="3" port="S_AXI_CONTROL" size="0x4" offset="0x30" hostOffset="0x0" hostSize="0x4" type="unsigned int"/>
+          <arg name="stride" addressQualifier="0" id="4" port="S_AXI_CONTROL" size="0x4" offset="0x38" hostOffset="0x0" hostSize="0x4" type="unsigned int"/>
+          <arg name="dst" addressQualifier="1" id="5" port="M_AXI_GMEM1" size="0x8" offset="0x40" hostOffset="0x0" hostSize="0x8" type="void*"/>
+          <compileWorkGroupSize x="1" y="1" z="1"/>
+          <maxWorkGroupSize x="1" y="1" z="1"/>
+          <string_table/>
+          <instance name="Filter2DKernel_1"><addrRemap base="0x000000001C060000" range="0x10000" port="S_AXI_CONTROL"/></instance>
+          <FIFOInformation>
+            <FIFOInst>
+              <Name>src_pixels_U</Name>
+              <ParentInst/>
+              <StaticDepth>64</StaticDepth>
+              <RuntimeDepth>mOutPtr</RuntimeDepth>
+              <InterfaceList>
+                <Interface>clk</Interface>
+                <Interface>reset</Interface>
+                <Interface>if_write</Interface>
+                <Interface>if_din</Interface>
+                <Interface>if_full_n</Interface>
+                <Interface>if_read</Interface>
+                <Interface>if_empty_n</Interface>
+              </InterfaceList>
+            </FIFOInst>
+            <FIFOInst>
+              <Name>dst_pixels_U</Name>
+              <ParentInst/>
+              <StaticDepth>64</StaticDepth>
+              <RuntimeDepth>mOutPtr</RuntimeDepth>
+              <InterfaceList>
+                <Interface>clk</Interface>
+                <Interface>reset</Interface>
+                <Interface>if_write</Interface>
+                <Interface>if_din</Interface>
+                <Interface>if_full_n</Interface>
+                <Interface>if_read</Interface>
+                <Interface>if_empty_n</Interface>
+              </InterfaceList>
+            </FIFOInst>
+          </FIFOInformation>
+        </kernel>
+      <connection srcType="core" srcInst="OCL_REGION_0" srcPort="slr0/interconnect_axilite_user_0_M02_AXI" dstType="kernel" dstInst="Filter2DKernel_1" dstPort="S_AXI_CONTROL"/><connection srcType="core" srcInst="OCL_REGION_0" srcPort="hmss_0" dstType="kernel" dstInst="Filter2DKernel_1" dstPort="M_AXI_GMEM1"/><connection srcType="core" srcInst="OCL_REGION_0" srcPort="hmss_0" dstType="kernel" dstInst="Filter2DKernel_1" dstPort="M_AXI_GMEM0"/><connection srcType="core" srcInst="OCL_REGION_0" srcPort="slr0/interconnect_axilite_user_0_M02_AXI" dstType="kernel" dstInst="Filter2DKernel_1" dstPort="S_AXI_CONTROL"/><connection srcType="core" srcInst="OCL_REGION_0" srcPort="slr0/interconnect_axilite_user_0_M02_AXI" dstType="kernel" dstInst="Filter2DKernel_1" dstPort="S_AXI_CONTROL"/><connection srcType="core" srcInst="OCL_REGION_0" srcPort="slr0/interconnect_axilite_user_0_M02_AXI" dstType="kernel" dstInst="Filter2DKernel_1" dstPort="S_AXI_CONTROL"/><connection srcType="core" srcInst="OCL_REGION_0" srcPort="hmss_0" dstType="kernel" dstInst="Filter2DKernel_1" dstPort="M_AXI_GMEM1"/></core>
+    </device>
+  </platform>
+</project>

@@ -1,0 +1,366 @@
+Begin Function 'PixelStream2AXIBursts_Pipeline_pixels2bytes'
+
+RTL state condition: (1'b1 == ap_CS_fsm_pp0_stage0)
+# ST_1
+local x_1 <load_96> <integer> <> 'load' </home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/axi2stream.cpp:91->/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:96>
+x /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/axi2stream.cpp:91
+x_1 /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:96
+reg: x_1_reg_1174[11:0] lv
+
+local icmp_ln91 <icmp_96> <integer> <Comparator> 'icmp' </home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/axi2stream.cpp:91->/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:96>
+icmp_ln91 /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/axi2stream.cpp:91
+icmp_ln91 /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:96
+reg: icmp_ln91_reg_1180[0:0] lv
+
+local cmp16_i <icmp_96> <integer> <Comparator> 'icmp' </home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/axi2stream.cpp:91->/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:96>
+cmp16_i /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/axi2stream.cpp:91
+cmp16_i /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:96
+reg: cmp16_i_reg_1184[0:0] lv
+
+local or_ln96 <or_96> <integer> <Logic> 'or' </home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/axi2stream.cpp:96->/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:96>
+or_ln96 /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/axi2stream.cpp:96
+or_ln96 /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:96
+reg: or_ln96_reg_1219[0:0] lv
+
+# ST_33
+local pixel_61 <> <integer> <Phi> 'phi' <>
+reg: pixel_61_reg_671[7:0] lv
+
+
+RTL state condition: (1'b1 == ap_CS_fsm_pp0_stage1)
+# ST_2
+local or_ln96_1 <or_96> <integer> <Logic> 'or' </home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/axi2stream.cpp:96->/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:96>
+or_ln96_1 /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/axi2stream.cpp:96
+or_ln96_1 /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:96
+reg: or_ln96_1_reg_1223[0:0] lv
+
+
+RTL state condition: (1'b1 == ap_CS_fsm_pp0_stage10)
+# ST_11
+local pixel_17 <> <integer> <Phi> 'phi' <>
+reg: pixel_17_reg_429[7:0] lv
+
+local or_ln96_10 <or_96> <integer> <Logic> 'or' </home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/axi2stream.cpp:96->/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:96>
+or_ln96_10 /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/axi2stream.cpp:96
+or_ln96_10 /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:96
+reg: or_ln96_10_reg_1264[0:0] lv
+
+
+RTL state condition: (1'b1 == ap_CS_fsm_pp0_stage11)
+# ST_12
+local pixel_19 <> <integer> <Phi> 'phi' <>
+reg: pixel_19_reg_440[7:0] lv
+
+local or_ln96_11 <or_96> <integer> <Logic> 'or' </home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/axi2stream.cpp:96->/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:96>
+or_ln96_11 /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/axi2stream.cpp:96
+or_ln96_11 /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:96
+reg: or_ln96_11_reg_1268[0:0] lv
+
+
+RTL state condition: (1'b1 == ap_CS_fsm_pp0_stage12)
+# ST_13
+local pixel_21 <> <integer> <Phi> 'phi' <>
+reg: pixel_21_reg_451[7:0] lv
+
+local or_ln96_12 <or_96> <integer> <Logic> 'or' </home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/axi2stream.cpp:96->/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:96>
+or_ln96_12 /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/axi2stream.cpp:96
+or_ln96_12 /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:96
+reg: or_ln96_12_reg_1272[0:0] lv
+
+
+RTL state condition: (1'b1 == ap_CS_fsm_pp0_stage13)
+# ST_14
+local pixel_23 <> <integer> <Phi> 'phi' <>
+reg: pixel_23_reg_462[7:0] lv
+
+local or_ln96_13 <or_96> <integer> <Logic> 'or' </home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/axi2stream.cpp:96->/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:96>
+or_ln96_13 /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/axi2stream.cpp:96
+or_ln96_13 /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:96
+reg: or_ln96_13_reg_1276[0:0] lv
+
+
+RTL state condition: (1'b1 == ap_CS_fsm_pp0_stage14)
+# ST_15
+local pixel_25 <> <integer> <Phi> 'phi' <>
+reg: pixel_25_reg_473[7:0] lv
+
+local or_ln96_14 <or_96> <integer> <Logic> 'or' </home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/axi2stream.cpp:96->/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:96>
+or_ln96_14 /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/axi2stream.cpp:96
+or_ln96_14 /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:96
+reg: or_ln96_14_reg_1280[0:0] lv
+
+
+RTL state condition: (1'b1 == ap_CS_fsm_pp0_stage15)
+# ST_16
+local pixel_27 <> <integer> <Phi> 'phi' <>
+reg: pixel_27_reg_484[7:0] lv
+
+local or_ln96_15 <or_96> <integer> <Logic> 'or' </home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/axi2stream.cpp:96->/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:96>
+or_ln96_15 /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/axi2stream.cpp:96
+or_ln96_15 /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:96
+reg: or_ln96_15_reg_1284[0:0] lv
+
+
+RTL state condition: (1'b1 == ap_CS_fsm_pp0_stage16)
+# ST_17
+local pixel_29 <> <integer> <Phi> 'phi' <>
+reg: pixel_29_reg_495[7:0] lv
+
+local or_ln96_16 <or_96> <integer> <Logic> 'or' </home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/axi2stream.cpp:96->/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:96>
+or_ln96_16 /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/axi2stream.cpp:96
+or_ln96_16 /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:96
+reg: or_ln96_16_reg_1288[0:0] lv
+
+
+RTL state condition: (1'b1 == ap_CS_fsm_pp0_stage17)
+# ST_18
+local pixel_31 <> <integer> <Phi> 'phi' <>
+reg: pixel_31_reg_506[7:0] lv
+
+local or_ln96_17 <or_96> <integer> <Logic> 'or' </home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/axi2stream.cpp:96->/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:96>
+or_ln96_17 /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/axi2stream.cpp:96
+or_ln96_17 /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:96
+reg: or_ln96_17_reg_1292[0:0] lv
+
+
+RTL state condition: (1'b1 == ap_CS_fsm_pp0_stage18)
+# ST_19
+local pixel_33 <> <integer> <Phi> 'phi' <>
+reg: pixel_33_reg_517[7:0] lv
+
+local or_ln96_18 <or_96> <integer> <Logic> 'or' </home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/axi2stream.cpp:96->/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:96>
+or_ln96_18 /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/axi2stream.cpp:96
+or_ln96_18 /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:96
+reg: or_ln96_18_reg_1296[0:0] lv
+
+
+RTL state condition: (1'b1 == ap_CS_fsm_pp0_stage19)
+# ST_20
+local pixel_35 <> <integer> <Phi> 'phi' <>
+reg: pixel_35_reg_528[7:0] lv
+
+local or_ln96_19 <or_96> <integer> <Logic> 'or' </home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/axi2stream.cpp:96->/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:96>
+or_ln96_19 /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/axi2stream.cpp:96
+or_ln96_19 /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:96
+reg: or_ln96_19_reg_1300[0:0] lv
+
+
+RTL state condition: (1'b1 == ap_CS_fsm_pp0_stage2)
+# ST_3
+local or_ln96_2 <or_96> <integer> <Logic> 'or' </home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/axi2stream.cpp:96->/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:96>
+or_ln96_2 /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/axi2stream.cpp:96
+or_ln96_2 /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:96
+reg: or_ln96_2_reg_1232[0:0] lv
+
+
+RTL state condition: (1'b1 == ap_CS_fsm_pp0_stage20)
+# ST_21
+local pixel_37 <> <integer> <Phi> 'phi' <>
+reg: pixel_37_reg_539[7:0] lv
+
+local or_ln96_20 <or_96> <integer> <Logic> 'or' </home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/axi2stream.cpp:96->/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:96>
+or_ln96_20 /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/axi2stream.cpp:96
+or_ln96_20 /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:96
+reg: or_ln96_20_reg_1304[0:0] lv
+
+local or_ln96_21 <or_96> <integer> <Logic> 'or' </home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/axi2stream.cpp:96->/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:96>
+or_ln96_21 /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/axi2stream.cpp:96
+or_ln96_21 /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:96
+reg: or_ln96_21_reg_1308[0:0] lv
+
+local or_ln96_22 <or_96> <integer> <Logic> 'or' </home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/axi2stream.cpp:96->/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:96>
+or_ln96_22 /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/axi2stream.cpp:96
+or_ln96_22 /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:96
+reg: or_ln96_22_reg_1312[0:0] lv
+
+local or_ln96_23 <or_96> <integer> <Logic> 'or' </home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/axi2stream.cpp:96->/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:96>
+or_ln96_23 /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/axi2stream.cpp:96
+or_ln96_23 /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:96
+reg: or_ln96_23_reg_1316[0:0] lv
+
+local or_ln96_24 <or_96> <integer> <Logic> 'or' </home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/axi2stream.cpp:96->/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:96>
+or_ln96_24 /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/axi2stream.cpp:96
+or_ln96_24 /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:96
+reg: or_ln96_24_reg_1320[0:0] lv
+
+local or_ln96_25 <or_96> <integer> <Logic> 'or' </home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/axi2stream.cpp:96->/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:96>
+or_ln96_25 /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/axi2stream.cpp:96
+or_ln96_25 /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:96
+reg: or_ln96_25_reg_1324[0:0] lv
+
+local or_ln96_26 <or_96> <integer> <Logic> 'or' </home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/axi2stream.cpp:96->/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:96>
+or_ln96_26 /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/axi2stream.cpp:96
+or_ln96_26 /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:96
+reg: or_ln96_26_reg_1328[0:0] lv
+
+local or_ln96_27 <or_96> <integer> <Logic> 'or' </home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/axi2stream.cpp:96->/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:96>
+or_ln96_27 /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/axi2stream.cpp:96
+or_ln96_27 /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:96
+reg: or_ln96_27_reg_1332[0:0] lv
+
+local or_ln96_28 <or_96> <integer> <Logic> 'or' </home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/axi2stream.cpp:96->/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:96>
+or_ln96_28 /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/axi2stream.cpp:96
+or_ln96_28 /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:96
+reg: or_ln96_28_reg_1336[0:0] lv
+
+local or_ln96_29 <or_96> <integer> <Logic> 'or' </home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/axi2stream.cpp:96->/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:96>
+or_ln96_29 /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/axi2stream.cpp:96
+or_ln96_29 /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:96
+reg: or_ln96_29_reg_1340[0:0] lv
+
+local or_ln96_30 <or_96> <integer> <Logic> 'or' </home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/axi2stream.cpp:96->/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:96>
+or_ln96_30 /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/axi2stream.cpp:96
+or_ln96_30 /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:96
+reg: or_ln96_30_reg_1344[0:0] lv
+
+local or_ln96_31 <or_96> <integer> <Logic> 'or' </home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/axi2stream.cpp:96->/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:96>
+or_ln96_31 /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/axi2stream.cpp:96
+or_ln96_31 /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:96
+reg: or_ln96_31_reg_1348[0:0] lv
+
+
+RTL state condition: (1'b1 == ap_CS_fsm_pp0_stage21)
+# ST_22
+local pixel_39 <> <integer> <Phi> 'phi' <>
+reg: pixel_39_reg_550[7:0] lv
+
+
+RTL state condition: (1'b1 == ap_CS_fsm_pp0_stage22)
+# ST_23
+local pixel_41 <> <integer> <Phi> 'phi' <>
+reg: pixel_41_reg_561[7:0] lv
+
+
+RTL state condition: (1'b1 == ap_CS_fsm_pp0_stage23)
+# ST_24
+local pixel_43 <> <integer> <Phi> 'phi' <>
+reg: pixel_43_reg_572[7:0] lv
+
+
+RTL state condition: (1'b1 == ap_CS_fsm_pp0_stage24)
+# ST_25
+local pixel_45 <> <integer> <Phi> 'phi' <>
+reg: pixel_45_reg_583[7:0] lv
+
+
+RTL state condition: (1'b1 == ap_CS_fsm_pp0_stage25)
+# ST_26
+local pixel_47 <> <integer> <Phi> 'phi' <>
+reg: pixel_47_reg_594[7:0] lv
+
+
+RTL state condition: (1'b1 == ap_CS_fsm_pp0_stage26)
+# ST_27
+local pixel_49 <> <integer> <Phi> 'phi' <>
+reg: pixel_49_reg_605[7:0] lv
+
+
+RTL state condition: (1'b1 == ap_CS_fsm_pp0_stage27)
+# ST_28
+local pixel_51 <> <integer> <Phi> 'phi' <>
+reg: pixel_51_reg_616[7:0] lv
+
+
+RTL state condition: (1'b1 == ap_CS_fsm_pp0_stage28)
+# ST_29
+local pixel_53 <> <integer> <Phi> 'phi' <>
+reg: pixel_53_reg_627[7:0] lv
+
+
+RTL state condition: (1'b1 == ap_CS_fsm_pp0_stage29)
+# ST_30
+local pixel_55 <> <integer> <Phi> 'phi' <>
+reg: pixel_55_reg_638[7:0] lv
+
+
+RTL state condition: (1'b1 == ap_CS_fsm_pp0_stage3)
+# ST_4
+local pixel_3 <> <integer> <Phi> 'phi' <>
+reg: pixel_3_reg_353[7:0] lv
+
+local or_ln96_3 <or_96> <integer> <Logic> 'or' </home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/axi2stream.cpp:96->/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:96>
+or_ln96_3 /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/axi2stream.cpp:96
+or_ln96_3 /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:96
+reg: or_ln96_3_reg_1236[0:0] lv
+
+
+RTL state condition: (1'b1 == ap_CS_fsm_pp0_stage30)
+# ST_31
+local pixel_57 <> <integer> <Phi> 'phi' <>
+reg: pixel_57_reg_649[7:0] lv
+
+
+RTL state condition: (1'b1 == ap_CS_fsm_pp0_stage31)
+# ST_32
+local pixel_59 <> <integer> <Phi> 'phi' <>
+reg: pixel_59_reg_660[7:0] lv
+
+
+RTL state condition: (1'b1 == ap_CS_fsm_pp0_stage4)
+# ST_5
+local pixel_5 <> <integer> <Phi> 'phi' <>
+reg: pixel_5_reg_363[7:0] lv
+
+local or_ln96_4 <or_96> <integer> <Logic> 'or' </home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/axi2stream.cpp:96->/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:96>
+or_ln96_4 /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/axi2stream.cpp:96
+or_ln96_4 /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:96
+reg: or_ln96_4_reg_1240[0:0] lv
+
+
+RTL state condition: (1'b1 == ap_CS_fsm_pp0_stage5)
+# ST_6
+local pixel_7 <> <integer> <Phi> 'phi' <>
+reg: pixel_7_reg_374[7:0] lv
+
+local or_ln96_5 <or_96> <integer> <Logic> 'or' </home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/axi2stream.cpp:96->/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:96>
+or_ln96_5 /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/axi2stream.cpp:96
+or_ln96_5 /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:96
+reg: or_ln96_5_reg_1244[0:0] lv
+
+
+RTL state condition: (1'b1 == ap_CS_fsm_pp0_stage6)
+# ST_7
+local pixel_9 <> <integer> <Phi> 'phi' <>
+reg: pixel_9_reg_385[7:0] lv
+
+local or_ln96_6 <or_96> <integer> <Logic> 'or' </home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/axi2stream.cpp:96->/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:96>
+or_ln96_6 /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/axi2stream.cpp:96
+or_ln96_6 /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:96
+reg: or_ln96_6_reg_1248[0:0] lv
+
+
+RTL state condition: (1'b1 == ap_CS_fsm_pp0_stage7)
+# ST_8
+local pixel_11 <> <integer> <Phi> 'phi' <>
+reg: pixel_11_reg_396[7:0] lv
+
+local or_ln96_7 <or_96> <integer> <Logic> 'or' </home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/axi2stream.cpp:96->/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:96>
+or_ln96_7 /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/axi2stream.cpp:96
+or_ln96_7 /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:96
+reg: or_ln96_7_reg_1252[0:0] lv
+
+
+RTL state condition: (1'b1 == ap_CS_fsm_pp0_stage8)
+# ST_9
+local pixel_13 <> <integer> <Phi> 'phi' <>
+reg: pixel_13_reg_407[7:0] lv
+
+local or_ln96_8 <or_96> <integer> <Logic> 'or' </home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/axi2stream.cpp:96->/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:96>
+or_ln96_8 /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/axi2stream.cpp:96
+or_ln96_8 /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:96
+reg: or_ln96_8_reg_1256[0:0] lv
+
+
+RTL state condition: (1'b1 == ap_CS_fsm_pp0_stage9)
+# ST_10
+local pixel_15 <> <integer> <Phi> 'phi' <>
+reg: pixel_15_reg_418[7:0] lv
+
+local or_ln96_9 <or_96> <integer> <Logic> 'or' </home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/axi2stream.cpp:96->/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:96>
+or_ln96_9 /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/axi2stream.cpp:96
+or_ln96_9 /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:96
+reg: or_ln96_9_reg_1260[0:0] lv
+
+
+End Function 'PixelStream2AXIBursts_Pipeline_pixels2bytes'
+

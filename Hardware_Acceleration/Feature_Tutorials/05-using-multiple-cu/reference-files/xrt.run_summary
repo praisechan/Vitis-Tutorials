@@ -1,0 +1,26 @@
+{
+    "schema_version": {
+        "major": "1",
+        "minor": "3",
+        "patch": "0"
+    },
+    "generation": {
+        "this_file": "\/home\/juchanlee\/Vitis-Tutorials\/Hardware_Acceleration\/Feature_Tutorials\/05-using-multiple-cu\/reference-files\/xrt.run_summary",
+        "source": "vp",
+        "PID": "1148816",
+        "timestamp": "1730724097953",
+        "flags": [
+            ""
+        ]
+    },
+    "files": [
+        {
+            "name": "opencl_trace.csv",
+            "type": "VP_TRACE"
+        },
+        {
+            "name": "summary.csv",
+            "type": "PROFILE_SUMMARY"
+        }
+    ]
+}

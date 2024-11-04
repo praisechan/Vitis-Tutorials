@@ -1,0 +1,4 @@
+Running: xsim.dir/pfm_top_wrapper_behav/xsimk -wdb xilinx_u55c_gen3x16_xdma_3_202210_1-0-filter2d.hw_emu.wdb -simmode gui -simrunnum 0 -socket 51571
+Design successfully loaded
+Design Loading Memory Usage: 82112 KB (Peak: 82112 KB)
+Design Loading CPU Usage: 100 ms

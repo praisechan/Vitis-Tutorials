@@ -1,0 +1,21 @@
+{
+    "kernelContainerValues": [
+        "Filter2DKernel:xo"
+    ],
+    "profileDataTransferValues": [
+        "all:all:all:all"
+    ],
+    "compile": "false",
+    "debug": "false",
+    "exportScript": "false",
+    "gccHostCompile": "false",
+    "generateEstimateRpt": "false",
+    "keepSolution": "false",
+    "link": "false",
+    "logDir": "\/home\/juchanlee\/Vitis-Tutorials\/Hardware_Acceleration\/Feature_Tutorials\/05-using-multiple-cu\/reference-files\/_x\/logs\/link",
+    "package": "false",
+    "reportDir": "\/home\/juchanlee\/Vitis-Tutorials\/Hardware_Acceleration\/Feature_Tutorials\/05-using-multiple-cu\/reference-files\/_x\/reports\/link",
+    "saveTemps": "false",
+    "verbose": "false",
+    "vplNoIpCache": "false"
+}

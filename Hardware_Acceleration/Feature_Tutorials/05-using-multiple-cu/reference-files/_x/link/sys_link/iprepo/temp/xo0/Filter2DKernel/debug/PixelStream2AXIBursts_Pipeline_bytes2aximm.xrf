@@ -1,0 +1,18 @@
+Begin Function 'PixelStream2AXIBursts_Pipeline_bytes2aximm'
+
+RTL state condition: (1'b1 == ap_CS_fsm_pp0_stage0)
+# ST_1
+local icmp_ln102 <icmp_96> <integer> <Comparator> 'icmp' </home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/axi2stream.cpp:102->/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:96>
+icmp_ln102 /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/axi2stream.cpp:102
+icmp_ln102 /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:96
+reg: icmp_ln102_reg_138[0:0] lv
+
+# ST_2
+local buff_V_load <load_96> <integer> <ArrayAccess><ArrayLoad><MultiCycle> 'load' </home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/axi2stream.cpp:105->/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:96>
+buff_V_load /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/axi2stream.cpp:105
+buff_V_load /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/src/kernel/filter2d.cpp:96
+reg: buff_V_load_reg_152[255:0] lv
+
+
+End Function 'PixelStream2AXIBursts_Pipeline_bytes2aximm'
+

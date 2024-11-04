@@ -1,0 +1,135 @@
+/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/_x/Filter2DKernel.hw_emu/Filter2DKernel/Filter2DKernel/solution/.autopilot/db/filter2d.pp.0.cpp:2628:7: warning: Added loop label VITIS_LOOP_1211_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^~~
+      VITIS_LOOP_1211_1: 
+/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/_x/Filter2DKernel.hw_emu/Filter2DKernel/Filter2DKernel/solution/.autopilot/db/filter2d.pp.0.cpp:2628:7: note: FIX-IT applied suggested code changes
+/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/_x/Filter2DKernel.hw_emu/Filter2DKernel/Filter2DKernel/solution/.autopilot/db/filter2d.pp.0.cpp:3602:5: warning: Added loop label VITIS_LOOP_676_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_676_1: 
+/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/_x/Filter2DKernel.hw_emu/Filter2DKernel/Filter2DKernel/solution/.autopilot/db/filter2d.pp.0.cpp:3602:5: note: FIX-IT applied suggested code changes
+/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/_x/Filter2DKernel.hw_emu/Filter2DKernel/Filter2DKernel/solution/.autopilot/db/filter2d.pp.0.cpp:3616:5: warning: Added loop label VITIS_LOOP_690_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_690_1: 
+/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/_x/Filter2DKernel.hw_emu/Filter2DKernel/Filter2DKernel/solution/.autopilot/db/filter2d.pp.0.cpp:3616:5: note: FIX-IT applied suggested code changes
+/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/_x/Filter2DKernel.hw_emu/Filter2DKernel/Filter2DKernel/solution/.autopilot/db/filter2d.pp.0.cpp:3630:5: warning: Added loop label VITIS_LOOP_704_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_704_1: 
+/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/_x/Filter2DKernel.hw_emu/Filter2DKernel/Filter2DKernel/solution/.autopilot/db/filter2d.pp.0.cpp:3630:5: note: FIX-IT applied suggested code changes
+/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/_x/Filter2DKernel.hw_emu/Filter2DKernel/Filter2DKernel/solution/.autopilot/db/filter2d.pp.0.cpp:5241:7: warning: Added loop label VITIS_LOOP_1245_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^~~
+      VITIS_LOOP_1245_1: 
+/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/_x/Filter2DKernel.hw_emu/Filter2DKernel/Filter2DKernel/solution/.autopilot/db/filter2d.pp.0.cpp:5241:7: note: FIX-IT applied suggested code changes
+/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/_x/Filter2DKernel.hw_emu/Filter2DKernel/Filter2DKernel/solution/.autopilot/db/filter2d.pp.0.cpp:7296:5: warning: Added loop label VITIS_LOOP_102_1:   [xilinx-label-all-loops]
+    for(i = 0; i < ROWS; i++) {
+    ^~~
+    VITIS_LOOP_102_1: 
+/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/_x/Filter2DKernel.hw_emu/Filter2DKernel/Filter2DKernel/solution/.autopilot/db/filter2d.pp.0.cpp:7296:5: note: FIX-IT applied suggested code changes
+/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/_x/Filter2DKernel.hw_emu/Filter2DKernel/Filter2DKernel/solution/.autopilot/db/filter2d.pp.0.cpp:7298:2: warning: Added loop label VITIS_LOOP_104_2:   [xilinx-label-all-loops]
+ for(j = 0; j < COLS-1; j++) {
+ ^~~
+ VITIS_LOOP_104_2: 
+/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/_x/Filter2DKernel.hw_emu/Filter2DKernel/Filter2DKernel/solution/.autopilot/db/filter2d.pp.0.cpp:7298:2: note: FIX-IT applied suggested code changes
+/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/_x/Filter2DKernel.hw_emu/Filter2DKernel/Filter2DKernel/solution/.autopilot/db/filter2d.pp.0.cpp:7320:5: warning: Added loop label VITIS_LOOP_140_1:   [xilinx-label-all-loops]
+    for(i = 0; i < ROWS; i++) {
+    ^~~
+    VITIS_LOOP_140_1: 
+/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/_x/Filter2DKernel.hw_emu/Filter2DKernel/Filter2DKernel/solution/.autopilot/db/filter2d.pp.0.cpp:7320:5: note: FIX-IT applied suggested code changes
+/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/_x/Filter2DKernel.hw_emu/Filter2DKernel/Filter2DKernel/solution/.autopilot/db/filter2d.pp.0.cpp:7322:2: warning: Added loop label VITIS_LOOP_142_2:   [xilinx-label-all-loops]
+ for(j = COLS-1; j > 0; j--) {
+ ^~~
+ VITIS_LOOP_142_2: 
+/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/_x/Filter2DKernel.hw_emu/Filter2DKernel/Filter2DKernel/solution/.autopilot/db/filter2d.pp.0.cpp:7322:2: note: FIX-IT applied suggested code changes
+/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/_x/Filter2DKernel.hw_emu/Filter2DKernel/Filter2DKernel/solution/.autopilot/db/filter2d.pp.0.cpp:7344:5: warning: Added loop label VITIS_LOOP_178_1:   [xilinx-label-all-loops]
+    for(i = 0; i < ROWS-1; i++) {
+    ^~~
+    VITIS_LOOP_178_1: 
+/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/_x/Filter2DKernel.hw_emu/Filter2DKernel/Filter2DKernel/solution/.autopilot/db/filter2d.pp.0.cpp:7344:5: note: FIX-IT applied suggested code changes
+/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/_x/Filter2DKernel.hw_emu/Filter2DKernel/Filter2DKernel/solution/.autopilot/db/filter2d.pp.0.cpp:7346:2: warning: Added loop label VITIS_LOOP_180_2:   [xilinx-label-all-loops]
+ for(j = 0; j < COLS; j++) {
+ ^~~
+ VITIS_LOOP_180_2: 
+/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/_x/Filter2DKernel.hw_emu/Filter2DKernel/Filter2DKernel/solution/.autopilot/db/filter2d.pp.0.cpp:7346:2: note: FIX-IT applied suggested code changes
+/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/_x/Filter2DKernel.hw_emu/Filter2DKernel/Filter2DKernel/solution/.autopilot/db/filter2d.pp.0.cpp:7368:5: warning: Added loop label VITIS_LOOP_216_1:   [xilinx-label-all-loops]
+    for(i = ROWS-1; i > 0; i--) {
+    ^~~
+    VITIS_LOOP_216_1: 
+/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/_x/Filter2DKernel.hw_emu/Filter2DKernel/Filter2DKernel/solution/.autopilot/db/filter2d.pp.0.cpp:7368:5: note: FIX-IT applied suggested code changes
+/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/_x/Filter2DKernel.hw_emu/Filter2DKernel/Filter2DKernel/solution/.autopilot/db/filter2d.pp.0.cpp:7370:2: warning: Added loop label VITIS_LOOP_218_2:   [xilinx-label-all-loops]
+ for(j = 0; j < COLS; j++) {
+ ^~~
+ VITIS_LOOP_218_2: 
+/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/_x/Filter2DKernel.hw_emu/Filter2DKernel/Filter2DKernel/solution/.autopilot/db/filter2d.pp.0.cpp:7370:2: note: FIX-IT applied suggested code changes
+/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/_x/Filter2DKernel.hw_emu/Filter2DKernel/Filter2DKernel/solution/.autopilot/db/filter2d.pp.0.cpp:7408:5: warning: Added loop label VITIS_LOOP_285_1:   [xilinx-label-all-loops]
+    for(j = 0; j < COLS; j++) {
+    ^~~
+    VITIS_LOOP_285_1: 
+/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/_x/Filter2DKernel.hw_emu/Filter2DKernel/Filter2DKernel/solution/.autopilot/db/filter2d.pp.0.cpp:7408:5: note: FIX-IT applied suggested code changes
+/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/_x/Filter2DKernel.hw_emu/Filter2DKernel/Filter2DKernel/solution/.autopilot/db/filter2d.pp.0.cpp:7460:5: warning: Added loop label VITIS_LOOP_382_1:   [xilinx-label-all-loops]
+    for(i = 0; i < ROWS; i++) {
+    ^~~
+    VITIS_LOOP_382_1: 
+/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/_x/Filter2DKernel.hw_emu/Filter2DKernel/Filter2DKernel/solution/.autopilot/db/filter2d.pp.0.cpp:7460:5: note: FIX-IT applied suggested code changes
+/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/_x/Filter2DKernel.hw_emu/Filter2DKernel/Filter2DKernel/solution/.autopilot/db/filter2d.pp.0.cpp:7649:5: warning: Added loop label VITIS_LOOP_666_1:   [xilinx-label-all-loops]
+    for(i = ROWS-1; i > 0; i--) {
+    ^~~
+    VITIS_LOOP_666_1: 
+/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/_x/Filter2DKernel.hw_emu/Filter2DKernel/Filter2DKernel/solution/.autopilot/db/filter2d.pp.0.cpp:7649:5: note: FIX-IT applied suggested code changes
+/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/_x/Filter2DKernel.hw_emu/Filter2DKernel/Filter2DKernel/solution/.autopilot/db/filter2d.pp.0.cpp:7671:5: warning: Added loop label VITIS_LOOP_706_1:   [xilinx-label-all-loops]
+    for(i = 0; i < ROWS-1; i++) {
+    ^~~
+    VITIS_LOOP_706_1: 
+/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/_x/Filter2DKernel.hw_emu/Filter2DKernel/Filter2DKernel/solution/.autopilot/db/filter2d.pp.0.cpp:7671:5: note: FIX-IT applied suggested code changes
+/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/_x/Filter2DKernel.hw_emu/Filter2DKernel/Filter2DKernel/solution/.autopilot/db/filter2d.pp.0.cpp:7719:5: warning: Added loop label VITIS_LOOP_802_1:   [xilinx-label-all-loops]
+    for(i = 0; i < ROWS; i++) {
+    ^~~
+    VITIS_LOOP_802_1: 
+/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/_x/Filter2DKernel.hw_emu/Filter2DKernel/Filter2DKernel/solution/.autopilot/db/filter2d.pp.0.cpp:7719:5: note: FIX-IT applied suggested code changes
+/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/_x/Filter2DKernel.hw_emu/Filter2DKernel/Filter2DKernel/solution/.autopilot/db/filter2d.pp.0.cpp:7826:5: warning: Added loop label VITIS_LOOP_954_1:   [xilinx-label-all-loops]
+    for(i = ROWS-1; i > 0; i--) {
+    ^~~
+    VITIS_LOOP_954_1: 
+/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/_x/Filter2DKernel.hw_emu/Filter2DKernel/Filter2DKernel/solution/.autopilot/db/filter2d.pp.0.cpp:7826:5: note: FIX-IT applied suggested code changes
+/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/_x/Filter2DKernel.hw_emu/Filter2DKernel/Filter2DKernel/solution/.autopilot/db/filter2d.pp.0.cpp:7848:5: warning: Added loop label VITIS_LOOP_994_1:   [xilinx-label-all-loops]
+    for(i = 0; i < ROWS-1; i++) {
+    ^~~
+    VITIS_LOOP_994_1: 
+/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/_x/Filter2DKernel.hw_emu/Filter2DKernel/Filter2DKernel/solution/.autopilot/db/filter2d.pp.0.cpp:7848:5: note: FIX-IT applied suggested code changes
+/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/_x/Filter2DKernel.hw_emu/Filter2DKernel/Filter2DKernel/solution/.autopilot/db/filter2d.pp.0.cpp:7896:5: warning: Added loop label VITIS_LOOP_1090_1:   [xilinx-label-all-loops]
+    for(i = 0; i < ROWS; i++) {
+    ^~~
+    VITIS_LOOP_1090_1: 
+/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/_x/Filter2DKernel.hw_emu/Filter2DKernel/Filter2DKernel/solution/.autopilot/db/filter2d.pp.0.cpp:7896:5: note: FIX-IT applied suggested code changes
+/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/_x/Filter2DKernel.hw_emu/Filter2DKernel/Filter2DKernel/solution/.autopilot/db/filter2d.pp.0.cpp:8003:3: warning: Added loop label VITIS_LOOP_54_1:   [xilinx-label-all-loops]
+  for(int row=0; row<KERNEL_V_SIZE; row++)
+  ^~~
+  VITIS_LOOP_54_1: 
+/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/_x/Filter2DKernel.hw_emu/Filter2DKernel/Filter2DKernel/solution/.autopilot/db/filter2d.pp.0.cpp:8003:3: note: FIX-IT applied suggested code changes
+/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/_x/Filter2DKernel.hw_emu/Filter2DKernel/Filter2DKernel/solution/.autopilot/db/filter2d.pp.0.cpp:8005:4: warning: Added loop label VITIS_LOOP_56_2:   [xilinx-label-all-loops]
+   for(int col=0; col<KERNEL_H_SIZE; col++)
+   ^~~
+   VITIS_LOOP_56_2: 
+/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/_x/Filter2DKernel.hw_emu/Filter2DKernel/Filter2DKernel/solution/.autopilot/db/filter2d.pp.0.cpp:8005:4: note: FIX-IT applied suggested code changes
+/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/_x/Filter2DKernel.hw_emu/Filter2DKernel/Filter2DKernel/solution/.autopilot/db/filter2d.pp.0.cpp:8057:5: warning: Added loop label VITIS_LOOP_30_1:   [xilinx-label-all-loops]
+    for(int y=0; y<loopHeight; ++y)
+    ^~~
+    VITIS_LOOP_30_1: 
+/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/_x/Filter2DKernel.hw_emu/Filter2DKernel/Filter2DKernel/solution/.autopilot/db/filter2d.pp.0.cpp:8057:5: note: FIX-IT applied suggested code changes
+/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/_x/Filter2DKernel.hw_emu/Filter2DKernel/Filter2DKernel/solution/.autopilot/db/filter2d.pp.0.cpp:8059:9: warning: Added loop label VITIS_LOOP_32_2:   [xilinx-label-all-loops]
+        for(int x=0; x<loopWidth; ++x)
+        ^~~
+        VITIS_LOOP_32_2: 
+/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/_x/Filter2DKernel.hw_emu/Filter2DKernel/Filter2DKernel/solution/.autopilot/db/filter2d.pp.0.cpp:8059:9: note: FIX-IT applied suggested code changes
+/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/_x/Filter2DKernel.hw_emu/Filter2DKernel/Filter2DKernel/solution/.autopilot/db/filter2d.pp.0.cpp:8068:13: warning: Added loop label VITIS_LOOP_41_3:   [xilinx-label-all-loops]
+            for(int row=0; row<15; row++) {
+            ^~~
+            VITIS_LOOP_41_3: 
+/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/_x/Filter2DKernel.hw_emu/Filter2DKernel/Filter2DKernel/solution/.autopilot/db/filter2d.pp.0.cpp:8068:13: note: FIX-IT applied suggested code changes
+/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/_x/Filter2DKernel.hw_emu/Filter2DKernel/Filter2DKernel/solution/.autopilot/db/filter2d.pp.0.cpp:8069:5: warning: Added loop label VITIS_LOOP_42_4:   [xilinx-label-all-loops]
+    for(int col=0; col<15; col++) {
+    ^~~
+    VITIS_LOOP_42_4: 
+/home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/_x/Filter2DKernel.hw_emu/Filter2DKernel/Filter2DKernel/solution/.autopilot/db/filter2d.pp.0.cpp:8069:5: note: FIX-IT applied suggested code changes

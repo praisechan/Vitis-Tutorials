@@ -1,0 +1,134 @@
+log_wave -quiet /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/ap_idle
+get_value_database /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/ap_idle -time 0 -quiet 
+
+log_wave -quiet /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/ap_int_blocking_n
+get_value_database /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/ap_int_blocking_n -time 0 -quiet 
+
+log_wave -quiet /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/ap_ext_blocking_n
+get_value_database /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/ap_ext_blocking_n -time 0 -quiet 
+
+log_wave -quiet /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/ap_str_blocking_n
+get_value_database /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/ap_str_blocking_n -time 0 -quiet 
+
+log_wave -quiet /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/entry_proc_U0/ap_idle
+get_value_database /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/entry_proc_U0/ap_idle -time 0 -quiet 
+
+log_wave -quiet /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/entry_proc_U0/ap_int_blocking_n
+get_value_database /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/entry_proc_U0/ap_int_blocking_n -time 0 -quiet 
+
+log_wave -quiet /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/entry_proc_U0/ap_ext_blocking_n
+get_value_database /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/entry_proc_U0/ap_ext_blocking_n -time 0 -quiet 
+
+log_wave -quiet /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/entry_proc_U0/ap_str_blocking_n
+get_value_database /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/entry_proc_U0/ap_str_blocking_n -time 0 -quiet 
+
+log_wave -quiet /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/AXIBursts2PixelStream_U0/ap_idle
+get_value_database /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/AXIBursts2PixelStream_U0/ap_idle -time 0 -quiet 
+
+log_wave -quiet /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/AXIBursts2PixelStream_U0/ap_int_blocking_n
+get_value_database /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/AXIBursts2PixelStream_U0/ap_int_blocking_n -time 0 -quiet 
+
+log_wave -quiet /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/AXIBursts2PixelStream_U0/ap_ext_blocking_n
+get_value_database /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/AXIBursts2PixelStream_U0/ap_ext_blocking_n -time 0 -quiet 
+
+log_wave -quiet /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/AXIBursts2PixelStream_U0/ap_str_blocking_n
+get_value_database /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/AXIBursts2PixelStream_U0/ap_str_blocking_n -time 0 -quiet 
+
+log_wave -quiet /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/AXIBursts2PixelStream_U0/grp_AXIBursts2PixelStream_Pipeline_aximm2bytes_fu_222/ap_idle
+get_value_database /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/AXIBursts2PixelStream_U0/grp_AXIBursts2PixelStream_Pipeline_aximm2bytes_fu_222/ap_idle -time 0 -quiet 
+
+log_wave -quiet /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/AXIBursts2PixelStream_U0/grp_AXIBursts2PixelStream_Pipeline_aximm2bytes_fu_222/ap_int_blocking_n
+get_value_database /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/AXIBursts2PixelStream_U0/grp_AXIBursts2PixelStream_Pipeline_aximm2bytes_fu_222/ap_int_blocking_n -time 0 -quiet 
+
+log_wave -quiet /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/AXIBursts2PixelStream_U0/grp_AXIBursts2PixelStream_Pipeline_aximm2bytes_fu_222/ap_ext_blocking_n
+get_value_database /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/AXIBursts2PixelStream_U0/grp_AXIBursts2PixelStream_Pipeline_aximm2bytes_fu_222/ap_ext_blocking_n -time 0 -quiet 
+
+log_wave -quiet /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/AXIBursts2PixelStream_U0/grp_AXIBursts2PixelStream_Pipeline_aximm2bytes_fu_222/ap_str_blocking_n
+get_value_database /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/AXIBursts2PixelStream_U0/grp_AXIBursts2PixelStream_Pipeline_aximm2bytes_fu_222/ap_str_blocking_n -time 0 -quiet 
+
+log_wave -quiet /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/AXIBursts2PixelStream_U0/grp_AXIBursts2PixelStream_Pipeline_bytes2pixels_fu_231/ap_idle
+get_value_database /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/AXIBursts2PixelStream_U0/grp_AXIBursts2PixelStream_Pipeline_bytes2pixels_fu_231/ap_idle -time 0 -quiet 
+
+log_wave -quiet /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/AXIBursts2PixelStream_U0/grp_AXIBursts2PixelStream_Pipeline_bytes2pixels_fu_231/ap_int_blocking_n
+get_value_database /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/AXIBursts2PixelStream_U0/grp_AXIBursts2PixelStream_Pipeline_bytes2pixels_fu_231/ap_int_blocking_n -time 0 -quiet 
+
+log_wave -quiet /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/AXIBursts2PixelStream_U0/grp_AXIBursts2PixelStream_Pipeline_bytes2pixels_fu_231/ap_ext_blocking_n
+get_value_database /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/AXIBursts2PixelStream_U0/grp_AXIBursts2PixelStream_Pipeline_bytes2pixels_fu_231/ap_ext_blocking_n -time 0 -quiet 
+
+log_wave -quiet /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/AXIBursts2PixelStream_U0/grp_AXIBursts2PixelStream_Pipeline_bytes2pixels_fu_231/ap_str_blocking_n
+get_value_database /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/AXIBursts2PixelStream_U0/grp_AXIBursts2PixelStream_Pipeline_bytes2pixels_fu_231/ap_str_blocking_n -time 0 -quiet 
+
+log_wave -quiet /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/Filter2D_U0/ap_idle
+get_value_database /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/Filter2D_U0/ap_idle -time 0 -quiet 
+
+log_wave -quiet /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/Filter2D_U0/ap_int_blocking_n
+get_value_database /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/Filter2D_U0/ap_int_blocking_n -time 0 -quiet 
+
+log_wave -quiet /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/Filter2D_U0/ap_ext_blocking_n
+get_value_database /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/Filter2D_U0/ap_ext_blocking_n -time 0 -quiet 
+
+log_wave -quiet /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/Filter2D_U0/ap_str_blocking_n
+get_value_database /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/Filter2D_U0/ap_str_blocking_n -time 0 -quiet 
+
+log_wave -quiet /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/Filter2D_U0/grp_Filter2D_Pipeline_1_fu_1054/ap_idle
+get_value_database /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/Filter2D_U0/grp_Filter2D_Pipeline_1_fu_1054/ap_idle -time 0 -quiet 
+
+log_wave -quiet /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/Filter2D_U0/grp_Filter2D_Pipeline_1_fu_1054/ap_int_blocking_n
+get_value_database /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/Filter2D_U0/grp_Filter2D_Pipeline_1_fu_1054/ap_int_blocking_n -time 0 -quiet 
+
+log_wave -quiet /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/Filter2D_U0/grp_Filter2D_Pipeline_1_fu_1054/ap_ext_blocking_n
+get_value_database /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/Filter2D_U0/grp_Filter2D_Pipeline_1_fu_1054/ap_ext_blocking_n -time 0 -quiet 
+
+log_wave -quiet /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/Filter2D_U0/grp_Filter2D_Pipeline_1_fu_1054/ap_str_blocking_n
+get_value_database /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/Filter2D_U0/grp_Filter2D_Pipeline_1_fu_1054/ap_str_blocking_n -time 0 -quiet 
+
+log_wave -quiet /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/Filter2D_U0/grp_Filter2D_Pipeline_VITIS_LOOP_30_1_VITIS_LOOP_32_2_fu_1288/ap_idle
+get_value_database /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/Filter2D_U0/grp_Filter2D_Pipeline_VITIS_LOOP_30_1_VITIS_LOOP_32_2_fu_1288/ap_idle -time 0 -quiet 
+
+log_wave -quiet /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/Filter2D_U0/grp_Filter2D_Pipeline_VITIS_LOOP_30_1_VITIS_LOOP_32_2_fu_1288/ap_int_blocking_n
+get_value_database /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/Filter2D_U0/grp_Filter2D_Pipeline_VITIS_LOOP_30_1_VITIS_LOOP_32_2_fu_1288/ap_int_blocking_n -time 0 -quiet 
+
+log_wave -quiet /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/Filter2D_U0/grp_Filter2D_Pipeline_VITIS_LOOP_30_1_VITIS_LOOP_32_2_fu_1288/ap_ext_blocking_n
+get_value_database /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/Filter2D_U0/grp_Filter2D_Pipeline_VITIS_LOOP_30_1_VITIS_LOOP_32_2_fu_1288/ap_ext_blocking_n -time 0 -quiet 
+
+log_wave -quiet /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/Filter2D_U0/grp_Filter2D_Pipeline_VITIS_LOOP_30_1_VITIS_LOOP_32_2_fu_1288/ap_str_blocking_n
+get_value_database /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/Filter2D_U0/grp_Filter2D_Pipeline_VITIS_LOOP_30_1_VITIS_LOOP_32_2_fu_1288/ap_str_blocking_n -time 0 -quiet 
+
+log_wave -quiet /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/PixelStream2AXIBursts_U0/ap_idle
+get_value_database /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/PixelStream2AXIBursts_U0/ap_idle -time 0 -quiet 
+
+log_wave -quiet /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/PixelStream2AXIBursts_U0/ap_int_blocking_n
+get_value_database /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/PixelStream2AXIBursts_U0/ap_int_blocking_n -time 0 -quiet 
+
+log_wave -quiet /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/PixelStream2AXIBursts_U0/ap_ext_blocking_n
+get_value_database /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/PixelStream2AXIBursts_U0/ap_ext_blocking_n -time 0 -quiet 
+
+log_wave -quiet /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/PixelStream2AXIBursts_U0/ap_str_blocking_n
+get_value_database /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/PixelStream2AXIBursts_U0/ap_str_blocking_n -time 0 -quiet 
+
+log_wave -quiet /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/PixelStream2AXIBursts_U0/grp_PixelStream2AXIBursts_Pipeline_pixels2bytes_fu_219/ap_idle
+get_value_database /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/PixelStream2AXIBursts_U0/grp_PixelStream2AXIBursts_Pipeline_pixels2bytes_fu_219/ap_idle -time 0 -quiet 
+
+log_wave -quiet /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/PixelStream2AXIBursts_U0/grp_PixelStream2AXIBursts_Pipeline_pixels2bytes_fu_219/ap_int_blocking_n
+get_value_database /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/PixelStream2AXIBursts_U0/grp_PixelStream2AXIBursts_Pipeline_pixels2bytes_fu_219/ap_int_blocking_n -time 0 -quiet 
+
+log_wave -quiet /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/PixelStream2AXIBursts_U0/grp_PixelStream2AXIBursts_Pipeline_pixels2bytes_fu_219/ap_ext_blocking_n
+get_value_database /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/PixelStream2AXIBursts_U0/grp_PixelStream2AXIBursts_Pipeline_pixels2bytes_fu_219/ap_ext_blocking_n -time 0 -quiet 
+
+log_wave -quiet /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/PixelStream2AXIBursts_U0/grp_PixelStream2AXIBursts_Pipeline_pixels2bytes_fu_219/ap_str_blocking_n
+get_value_database /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/PixelStream2AXIBursts_U0/grp_PixelStream2AXIBursts_Pipeline_pixels2bytes_fu_219/ap_str_blocking_n -time 0 -quiet 
+
+log_wave -quiet /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/PixelStream2AXIBursts_U0/grp_PixelStream2AXIBursts_Pipeline_bytes2aximm_fu_262/ap_idle
+get_value_database /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/PixelStream2AXIBursts_U0/grp_PixelStream2AXIBursts_Pipeline_bytes2aximm_fu_262/ap_idle -time 0 -quiet 
+
+log_wave -quiet /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/PixelStream2AXIBursts_U0/grp_PixelStream2AXIBursts_Pipeline_bytes2aximm_fu_262/ap_int_blocking_n
+get_value_database /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/PixelStream2AXIBursts_U0/grp_PixelStream2AXIBursts_Pipeline_bytes2aximm_fu_262/ap_int_blocking_n -time 0 -quiet 
+
+log_wave -quiet /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/PixelStream2AXIBursts_U0/grp_PixelStream2AXIBursts_Pipeline_bytes2aximm_fu_262/ap_ext_blocking_n
+get_value_database /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/PixelStream2AXIBursts_U0/grp_PixelStream2AXIBursts_Pipeline_bytes2aximm_fu_262/ap_ext_blocking_n -time 0 -quiet 
+
+log_wave -quiet /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/PixelStream2AXIBursts_U0/grp_PixelStream2AXIBursts_Pipeline_bytes2aximm_fu_262/ap_str_blocking_n
+get_value_database /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst/PixelStream2AXIBursts_U0/grp_PixelStream2AXIBursts_Pipeline_bytes2aximm_fu_262/ap_str_blocking_n -time 0 -quiet 
+
+log_wave -quiet /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst//src_pixels_U/mOutPtr
+log_wave -quiet /pfm_top_wrapper/pfm_top_i/pfm_dynamic_inst/Filter2DKernel_1/inst//dst_pixels_U/mOutPtr

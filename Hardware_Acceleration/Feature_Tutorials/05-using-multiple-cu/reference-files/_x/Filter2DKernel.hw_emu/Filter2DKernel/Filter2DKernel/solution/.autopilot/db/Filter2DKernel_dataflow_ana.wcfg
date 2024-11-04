@@ -1,0 +1,734 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Filter2DKernel.wdb" id="1">
+         <top_modules>
+            <top_module name="apa_Filter2DKernel_top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0ns"></ZoomStartTime>
+      <ZoomEndTime time="2000ns"></ZoomEndTime>
+      <Cursor1Time time="0ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="257"></NameColumnWidth>
+      <ValueColumnWidth column_width="84"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="2" />
+   <wvobject type="group" fp_name="HLS Process Summary Group">
+      <obj_property name="label">HLS Process Summary</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="group" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel//AESL_inst_Filter2DKernel_activity">
+         <obj_property name="label">AESL_inst_Filter2DKernel_activity</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="UseFullPath">true</obj_property>
+         <obj_property name="ElementShortName">AESL_inst_Filter2DKernel_activity</obj_property>
+         <obj_property name="ObjectShortName">AESL_inst_Filter2DKernel_activity</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+         <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">turquoise</obj_property>
+         <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+         <obj_property name="Render_Data">/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel//AESL_inst_Filter2DKernel_activity.dataflowTxWaveData.Cycles</obj_property>
+         <obj_property name="Value_Data">/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel//AESL_inst_Filter2DKernel_activity.dataflowTxWaveData.OutStanding</obj_property>
+         <obj_property name="Detail_Data">/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel//AESL_inst_Filter2DKernel_activity.dataflowTxTooltipData</obj_property>
+         <wvobject type="group" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/entry_proc_U0/entry_proc_U0_activity">
+            <obj_property name="label">entry_proc_U0_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">entry_proc_U0_activity</obj_property>
+            <obj_property name="ObjectShortName">entry_proc_U0_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/entry_proc_U0/entry_proc_U0_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/entry_proc_U0/entry_proc_U0_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/entry_proc_U0/entry_proc_U0_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/AXIBursts2PixelStream_U0/AXIBursts2PixelStream_U0_activity">
+            <obj_property name="label">AXIBursts2PixelStream_U0_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">AXIBursts2PixelStream_U0_activity</obj_property>
+            <obj_property name="ObjectShortName">AXIBursts2PixelStream_U0_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/AXIBursts2PixelStream_U0/AXIBursts2PixelStream_U0_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/AXIBursts2PixelStream_U0/AXIBursts2PixelStream_U0_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/AXIBursts2PixelStream_U0/AXIBursts2PixelStream_U0_activity.dataflowTxTooltipData</obj_property>
+            <wvobject type="group" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/AXIBursts2PixelStream_U0/grp_AXIBursts2PixelStream_Pipeline_aximm2bytes_fu_222/grp_AXIBursts2PixelStream_Pipeline_aximm2bytes_fu_222_activity">
+               <obj_property name="label">grp_AXIBursts2PixelStream_Pipeline_aximm2bytes_fu_222_activity</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="UseFullPath">true</obj_property>
+               <obj_property name="ElementShortName">grp_AXIBursts2PixelStream_Pipeline_aximm2bytes_fu_222_activity</obj_property>
+               <obj_property name="ObjectShortName">grp_AXIBursts2PixelStream_Pipeline_aximm2bytes_fu_222_activity</obj_property>
+               <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+               <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+               <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="CustomSignalColor">turquoise</obj_property>
+               <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+               <obj_property name="Render_Data">/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/AXIBursts2PixelStream_U0/grp_AXIBursts2PixelStream_Pipeline_aximm2bytes_fu_222/grp_AXIBursts2PixelStream_Pipeline_aximm2bytes_fu_222_activity.dataflowTxWaveData.Cycles</obj_property>
+               <obj_property name="Value_Data">/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/AXIBursts2PixelStream_U0/grp_AXIBursts2PixelStream_Pipeline_aximm2bytes_fu_222/grp_AXIBursts2PixelStream_Pipeline_aximm2bytes_fu_222_activity.dataflowTxWaveData.OutStanding</obj_property>
+               <obj_property name="Detail_Data">/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/AXIBursts2PixelStream_U0/grp_AXIBursts2PixelStream_Pipeline_aximm2bytes_fu_222/grp_AXIBursts2PixelStream_Pipeline_aximm2bytes_fu_222_activity.dataflowTxTooltipData</obj_property>
+            </wvobject>
+            <wvobject type="group" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/AXIBursts2PixelStream_U0/grp_AXIBursts2PixelStream_Pipeline_bytes2pixels_fu_231/grp_AXIBursts2PixelStream_Pipeline_bytes2pixels_fu_231_activity">
+               <obj_property name="label">grp_AXIBursts2PixelStream_Pipeline_bytes2pixels_fu_231_activity</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="UseFullPath">true</obj_property>
+               <obj_property name="ElementShortName">grp_AXIBursts2PixelStream_Pipeline_bytes2pixels_fu_231_activity</obj_property>
+               <obj_property name="ObjectShortName">grp_AXIBursts2PixelStream_Pipeline_bytes2pixels_fu_231_activity</obj_property>
+               <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+               <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+               <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="CustomSignalColor">turquoise</obj_property>
+               <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+               <obj_property name="Render_Data">/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/AXIBursts2PixelStream_U0/grp_AXIBursts2PixelStream_Pipeline_bytes2pixels_fu_231/grp_AXIBursts2PixelStream_Pipeline_bytes2pixels_fu_231_activity.dataflowTxWaveData.Cycles</obj_property>
+               <obj_property name="Value_Data">/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/AXIBursts2PixelStream_U0/grp_AXIBursts2PixelStream_Pipeline_bytes2pixels_fu_231/grp_AXIBursts2PixelStream_Pipeline_bytes2pixels_fu_231_activity.dataflowTxWaveData.OutStanding</obj_property>
+               <obj_property name="Detail_Data">/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/AXIBursts2PixelStream_U0/grp_AXIBursts2PixelStream_Pipeline_bytes2pixels_fu_231/grp_AXIBursts2PixelStream_Pipeline_bytes2pixels_fu_231_activity.dataflowTxTooltipData</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/Filter2D_U0/Filter2D_U0_activity">
+            <obj_property name="label">Filter2D_U0_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">Filter2D_U0_activity</obj_property>
+            <obj_property name="ObjectShortName">Filter2D_U0_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/Filter2D_U0/Filter2D_U0_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/Filter2D_U0/Filter2D_U0_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/Filter2D_U0/Filter2D_U0_activity.dataflowTxTooltipData</obj_property>
+            <wvobject type="group" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/Filter2D_U0/grp_Filter2D_Pipeline_1_fu_1054/grp_Filter2D_Pipeline_1_fu_1054_activity">
+               <obj_property name="label">grp_Filter2D_Pipeline_1_fu_1054_activity</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="UseFullPath">true</obj_property>
+               <obj_property name="ElementShortName">grp_Filter2D_Pipeline_1_fu_1054_activity</obj_property>
+               <obj_property name="ObjectShortName">grp_Filter2D_Pipeline_1_fu_1054_activity</obj_property>
+               <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+               <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+               <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="CustomSignalColor">turquoise</obj_property>
+               <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+               <obj_property name="Render_Data">/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/Filter2D_U0/grp_Filter2D_Pipeline_1_fu_1054/grp_Filter2D_Pipeline_1_fu_1054_activity.dataflowTxWaveData.Cycles</obj_property>
+               <obj_property name="Value_Data">/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/Filter2D_U0/grp_Filter2D_Pipeline_1_fu_1054/grp_Filter2D_Pipeline_1_fu_1054_activity.dataflowTxWaveData.OutStanding</obj_property>
+               <obj_property name="Detail_Data">/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/Filter2D_U0/grp_Filter2D_Pipeline_1_fu_1054/grp_Filter2D_Pipeline_1_fu_1054_activity.dataflowTxTooltipData</obj_property>
+            </wvobject>
+            <wvobject type="group" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/Filter2D_U0/grp_Filter2D_Pipeline_VITIS_LOOP_30_1_VITIS_LOOP_32_2_fu_1288/grp_Filter2D_Pipeline_VITIS_LOOP_30_1_VITIS_LOOP_32_2_fu_1288_activity">
+               <obj_property name="label">grp_Filter2D_Pipeline_VITIS_LOOP_30_1_VITIS_LOOP_32_2_fu_1288_activity</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="UseFullPath">true</obj_property>
+               <obj_property name="ElementShortName">grp_Filter2D_Pipeline_VITIS_LOOP_30_1_VITIS_LOOP_32_2_fu_1288_activity</obj_property>
+               <obj_property name="ObjectShortName">grp_Filter2D_Pipeline_VITIS_LOOP_30_1_VITIS_LOOP_32_2_fu_1288_activity</obj_property>
+               <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+               <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+               <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="CustomSignalColor">turquoise</obj_property>
+               <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+               <obj_property name="Render_Data">/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/Filter2D_U0/grp_Filter2D_Pipeline_VITIS_LOOP_30_1_VITIS_LOOP_32_2_fu_1288/grp_Filter2D_Pipeline_VITIS_LOOP_30_1_VITIS_LOOP_32_2_fu_1288_activity.dataflowTxWaveData.Cycles</obj_property>
+               <obj_property name="Value_Data">/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/Filter2D_U0/grp_Filter2D_Pipeline_VITIS_LOOP_30_1_VITIS_LOOP_32_2_fu_1288/grp_Filter2D_Pipeline_VITIS_LOOP_30_1_VITIS_LOOP_32_2_fu_1288_activity.dataflowTxWaveData.OutStanding</obj_property>
+               <obj_property name="Detail_Data">/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/Filter2D_U0/grp_Filter2D_Pipeline_VITIS_LOOP_30_1_VITIS_LOOP_32_2_fu_1288/grp_Filter2D_Pipeline_VITIS_LOOP_30_1_VITIS_LOOP_32_2_fu_1288_activity.dataflowTxTooltipData</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/PixelStream2AXIBursts_U0/PixelStream2AXIBursts_U0_activity">
+            <obj_property name="label">PixelStream2AXIBursts_U0_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">PixelStream2AXIBursts_U0_activity</obj_property>
+            <obj_property name="ObjectShortName">PixelStream2AXIBursts_U0_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/PixelStream2AXIBursts_U0/PixelStream2AXIBursts_U0_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/PixelStream2AXIBursts_U0/PixelStream2AXIBursts_U0_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/PixelStream2AXIBursts_U0/PixelStream2AXIBursts_U0_activity.dataflowTxTooltipData</obj_property>
+            <wvobject type="group" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/PixelStream2AXIBursts_U0/grp_PixelStream2AXIBursts_Pipeline_pixels2bytes_fu_219/grp_PixelStream2AXIBursts_Pipeline_pixels2bytes_fu_219_activity">
+               <obj_property name="label">grp_PixelStream2AXIBursts_Pipeline_pixels2bytes_fu_219_activity</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="UseFullPath">true</obj_property>
+               <obj_property name="ElementShortName">grp_PixelStream2AXIBursts_Pipeline_pixels2bytes_fu_219_activity</obj_property>
+               <obj_property name="ObjectShortName">grp_PixelStream2AXIBursts_Pipeline_pixels2bytes_fu_219_activity</obj_property>
+               <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+               <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+               <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="CustomSignalColor">turquoise</obj_property>
+               <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+               <obj_property name="Render_Data">/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/PixelStream2AXIBursts_U0/grp_PixelStream2AXIBursts_Pipeline_pixels2bytes_fu_219/grp_PixelStream2AXIBursts_Pipeline_pixels2bytes_fu_219_activity.dataflowTxWaveData.Cycles</obj_property>
+               <obj_property name="Value_Data">/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/PixelStream2AXIBursts_U0/grp_PixelStream2AXIBursts_Pipeline_pixels2bytes_fu_219/grp_PixelStream2AXIBursts_Pipeline_pixels2bytes_fu_219_activity.dataflowTxWaveData.OutStanding</obj_property>
+               <obj_property name="Detail_Data">/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/PixelStream2AXIBursts_U0/grp_PixelStream2AXIBursts_Pipeline_pixels2bytes_fu_219/grp_PixelStream2AXIBursts_Pipeline_pixels2bytes_fu_219_activity.dataflowTxTooltipData</obj_property>
+            </wvobject>
+            <wvobject type="group" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/PixelStream2AXIBursts_U0/grp_PixelStream2AXIBursts_Pipeline_bytes2aximm_fu_262/grp_PixelStream2AXIBursts_Pipeline_bytes2aximm_fu_262_activity">
+               <obj_property name="label">grp_PixelStream2AXIBursts_Pipeline_bytes2aximm_fu_262_activity</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="UseFullPath">true</obj_property>
+               <obj_property name="ElementShortName">grp_PixelStream2AXIBursts_Pipeline_bytes2aximm_fu_262_activity</obj_property>
+               <obj_property name="ObjectShortName">grp_PixelStream2AXIBursts_Pipeline_bytes2aximm_fu_262_activity</obj_property>
+               <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+               <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+               <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="CustomSignalColor">turquoise</obj_property>
+               <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+               <obj_property name="Render_Data">/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/PixelStream2AXIBursts_U0/grp_PixelStream2AXIBursts_Pipeline_bytes2aximm_fu_262/grp_PixelStream2AXIBursts_Pipeline_bytes2aximm_fu_262_activity.dataflowTxWaveData.Cycles</obj_property>
+               <obj_property name="Value_Data">/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/PixelStream2AXIBursts_U0/grp_PixelStream2AXIBursts_Pipeline_bytes2aximm_fu_262/grp_PixelStream2AXIBursts_Pipeline_bytes2aximm_fu_262_activity.dataflowTxWaveData.OutStanding</obj_property>
+               <obj_property name="Detail_Data">/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/PixelStream2AXIBursts_U0/grp_PixelStream2AXIBursts_Pipeline_bytes2aximm_fu_262/grp_PixelStream2AXIBursts_Pipeline_bytes2aximm_fu_262_activity.dataflowTxTooltipData</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject type="protoinst" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel//AESL_inst_Filter2DKernel_activity">
+      <obj_property name="ElementShortName">AESL_inst_Filter2DKernel_activity</obj_property>
+      <obj_property name="ObjectShortName">AESL_inst_Filter2DKernel_activity</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="AESL_inst_Filter2DKernel_group">
+      <obj_property name="label">AESL_inst_Filter2DKernel</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="protoinst" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/entry_proc_U0/entry_proc_U0_activity">
+         <obj_property name="ElementShortName">entry_proc_U0_activity</obj_property>
+         <obj_property name="ObjectShortName">entry_proc_U0_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/AXIBursts2PixelStream_U0/AXIBursts2PixelStream_U0_activity">
+         <obj_property name="ElementShortName">AXIBursts2PixelStream_U0_activity</obj_property>
+         <obj_property name="ObjectShortName">AXIBursts2PixelStream_U0_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/Filter2D_U0/Filter2D_U0_activity">
+         <obj_property name="ElementShortName">Filter2D_U0_activity</obj_property>
+         <obj_property name="ObjectShortName">Filter2D_U0_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/PixelStream2AXIBursts_U0/PixelStream2AXIBursts_U0_activity">
+         <obj_property name="ElementShortName">PixelStream2AXIBursts_U0_activity</obj_property>
+         <obj_property name="ObjectShortName">PixelStream2AXIBursts_U0_activity</obj_property>
+      </wvobject>
+      <wvobject type="group" fp_name="AESL_inst_Filter2DKernel_Handshake_group">
+         <obj_property name="label">Block-level handshake</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/ap_start">
+            <obj_property name="ElementShortName">ap_start</obj_property>
+            <obj_property name="ObjectShortName">ap_start</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/ap_ready">
+            <obj_property name="ElementShortName">ap_ready</obj_property>
+            <obj_property name="ObjectShortName">ap_ready</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/ap_done">
+            <obj_property name="ElementShortName">ap_done</obj_property>
+            <obj_property name="ObjectShortName">ap_done</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/ap_continue">
+            <obj_property name="ElementShortName">ap_continue</obj_property>
+            <obj_property name="ObjectShortName">ap_continue</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="entry_proc_U0_group">
+         <obj_property name="label">entry_proc_U0</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="entry_proc_U0_Input_group">
+            <obj_property name="label">Input Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="entry_proc_U0_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/entry_proc_U0/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/entry_proc_U0/real_start">
+               <obj_property name="ElementShortName">real_start</obj_property>
+               <obj_property name="ObjectShortName">real_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/entry_proc_U0/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/entry_proc_U0/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/entry_proc_U0/ap_continue">
+               <obj_property name="ElementShortName">ap_continue</obj_property>
+               <obj_property name="ObjectShortName">ap_continue</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="entry_proc_U0_Output_group">
+            <obj_property name="label">Output Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="dst_c_group">
+               <obj_property name="label">dst_c(dst_c_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/entry_proc_U0/dst_c_blk_n">
+                  <obj_property name="ElementShortName">dst_c_blk_n</obj_property>
+                  <obj_property name="ObjectShortName">dst_c_blk_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/entry_proc_U0/dst_c_din">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/entry_proc_U0/dst_c_full_n">
+                  <obj_property name="ElementShortName">dst_c_full_n</obj_property>
+                  <obj_property name="ObjectShortName">dst_c_full_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/entry_proc_U0/dst_c_write">
+                  <obj_property name="ElementShortName">dst_c_write</obj_property>
+                  <obj_property name="ObjectShortName">dst_c_write</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="AXIBursts2PixelStream_U0_group">
+         <obj_property name="label">AXIBursts2PixelStream_U0</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="protoinst" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/AXIBursts2PixelStream_U0/grp_AXIBursts2PixelStream_Pipeline_aximm2bytes_fu_222/grp_AXIBursts2PixelStream_Pipeline_aximm2bytes_fu_222_activity">
+            <obj_property name="ElementShortName">grp_AXIBursts2PixelStream_Pipeline_aximm2bytes_fu_222_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_AXIBursts2PixelStream_Pipeline_aximm2bytes_fu_222_activity</obj_property>
+         </wvobject>
+         <wvobject type="protoinst" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/AXIBursts2PixelStream_U0/grp_AXIBursts2PixelStream_Pipeline_bytes2pixels_fu_231/grp_AXIBursts2PixelStream_Pipeline_bytes2pixels_fu_231_activity">
+            <obj_property name="ElementShortName">grp_AXIBursts2PixelStream_Pipeline_bytes2pixels_fu_231_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_AXIBursts2PixelStream_Pipeline_bytes2pixels_fu_231_activity</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="AXIBursts2PixelStream_U0_Input_group">
+            <obj_property name="label">Input Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="AXIBursts2PixelStream_U0_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/AXIBursts2PixelStream_U0/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/AXIBursts2PixelStream_U0/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/AXIBursts2PixelStream_U0/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/AXIBursts2PixelStream_U0/ap_continue">
+               <obj_property name="ElementShortName">ap_continue</obj_property>
+               <obj_property name="ObjectShortName">ap_continue</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="AXIBursts2PixelStream_U0_Output_group">
+            <obj_property name="label">Output Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="src_pixels_group">
+               <obj_property name="label">src_pixels(src_pixels_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/AXIBursts2PixelStream_U0/src_pixels_din">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/AXIBursts2PixelStream_U0/src_pixels_full_n">
+                  <obj_property name="ElementShortName">src_pixels_full_n</obj_property>
+                  <obj_property name="ObjectShortName">src_pixels_full_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/AXIBursts2PixelStream_U0/src_pixels_write">
+                  <obj_property name="ElementShortName">src_pixels_write</obj_property>
+                  <obj_property name="ObjectShortName">src_pixels_write</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="stride_c_group">
+               <obj_property name="label">stride_c(stride_c_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/AXIBursts2PixelStream_U0/stride_c_blk_n">
+                  <obj_property name="ElementShortName">stride_c_blk_n</obj_property>
+                  <obj_property name="ObjectShortName">stride_c_blk_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/AXIBursts2PixelStream_U0/stride_c_din">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/AXIBursts2PixelStream_U0/stride_c_full_n">
+                  <obj_property name="ElementShortName">stride_c_full_n</obj_property>
+                  <obj_property name="ObjectShortName">stride_c_full_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/AXIBursts2PixelStream_U0/stride_c_write">
+                  <obj_property name="ElementShortName">stride_c_write</obj_property>
+                  <obj_property name="ObjectShortName">stride_c_write</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="grp_AXIBursts2PixelStream_Pipeline_aximm2bytes_fu_222_group">
+            <obj_property name="label">grp_AXIBursts2PixelStream_Pipeline_aximm2bytes_fu_222</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="grp_AXIBursts2PixelStream_Pipeline_aximm2bytes_fu_222_Handshake_group">
+               <obj_property name="label">Block-level handshake</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/AXIBursts2PixelStream_U0/grp_AXIBursts2PixelStream_Pipeline_aximm2bytes_fu_222/ap_start">
+                  <obj_property name="ElementShortName">ap_start</obj_property>
+                  <obj_property name="ObjectShortName">ap_start</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/AXIBursts2PixelStream_U0/grp_AXIBursts2PixelStream_Pipeline_aximm2bytes_fu_222/ap_ready">
+                  <obj_property name="ElementShortName">ap_ready</obj_property>
+                  <obj_property name="ObjectShortName">ap_ready</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/AXIBursts2PixelStream_U0/grp_AXIBursts2PixelStream_Pipeline_aximm2bytes_fu_222/ap_done">
+                  <obj_property name="ElementShortName">ap_done</obj_property>
+                  <obj_property name="ObjectShortName">ap_done</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="grp_AXIBursts2PixelStream_Pipeline_bytes2pixels_fu_231_group">
+            <obj_property name="label">grp_AXIBursts2PixelStream_Pipeline_bytes2pixels_fu_231</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="grp_AXIBursts2PixelStream_Pipeline_bytes2pixels_fu_231_Handshake_group">
+               <obj_property name="label">Block-level handshake</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/AXIBursts2PixelStream_U0/grp_AXIBursts2PixelStream_Pipeline_bytes2pixels_fu_231/ap_start">
+                  <obj_property name="ElementShortName">ap_start</obj_property>
+                  <obj_property name="ObjectShortName">ap_start</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/AXIBursts2PixelStream_U0/grp_AXIBursts2PixelStream_Pipeline_bytes2pixels_fu_231/ap_ready">
+                  <obj_property name="ElementShortName">ap_ready</obj_property>
+                  <obj_property name="ObjectShortName">ap_ready</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/AXIBursts2PixelStream_U0/grp_AXIBursts2PixelStream_Pipeline_bytes2pixels_fu_231/ap_done">
+                  <obj_property name="ElementShortName">ap_done</obj_property>
+                  <obj_property name="ObjectShortName">ap_done</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="Filter2D_U0_group">
+         <obj_property name="label">Filter2D_U0</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="protoinst" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/Filter2D_U0/grp_Filter2D_Pipeline_1_fu_1054/grp_Filter2D_Pipeline_1_fu_1054_activity">
+            <obj_property name="ElementShortName">grp_Filter2D_Pipeline_1_fu_1054_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_Filter2D_Pipeline_1_fu_1054_activity</obj_property>
+         </wvobject>
+         <wvobject type="protoinst" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/Filter2D_U0/grp_Filter2D_Pipeline_VITIS_LOOP_30_1_VITIS_LOOP_32_2_fu_1288/grp_Filter2D_Pipeline_VITIS_LOOP_30_1_VITIS_LOOP_32_2_fu_1288_activity">
+            <obj_property name="ElementShortName">grp_Filter2D_Pipeline_VITIS_LOOP_30_1_VITIS_LOOP_32_2_fu_1288_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_Filter2D_Pipeline_VITIS_LOOP_30_1_VITIS_LOOP_32_2_fu_1288_activity</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="Filter2D_U0_Input_group">
+            <obj_property name="label">Input Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="src_pixels_group">
+               <obj_property name="label">src_pixels(src_pixels_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/Filter2D_U0/src_pixels_dout">
+                  <obj_property name="ElementShortName">src_pixels_dout[7:0]</obj_property>
+                  <obj_property name="ObjectShortName">src_pixels_dout[7:0]</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/Filter2D_U0/src_pixels_empty_n">
+                  <obj_property name="ElementShortName">src_pixels_empty_n</obj_property>
+                  <obj_property name="ObjectShortName">src_pixels_empty_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/Filter2D_U0/src_pixels_read">
+                  <obj_property name="ElementShortName">src_pixels_read</obj_property>
+                  <obj_property name="ObjectShortName">src_pixels_read</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="Filter2D_U0_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/Filter2D_U0/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/Filter2D_U0/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/Filter2D_U0/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/Filter2D_U0/ap_continue">
+               <obj_property name="ElementShortName">ap_continue</obj_property>
+               <obj_property name="ObjectShortName">ap_continue</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="Filter2D_U0_Output_group">
+            <obj_property name="label">Output Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="dst_pixels_group">
+               <obj_property name="label">dst_pixels(dst_pixels_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/Filter2D_U0/dst_pixels_din">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/Filter2D_U0/dst_pixels_full_n">
+                  <obj_property name="ElementShortName">dst_pixels_full_n</obj_property>
+                  <obj_property name="ObjectShortName">dst_pixels_full_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/Filter2D_U0/dst_pixels_write">
+                  <obj_property name="ElementShortName">dst_pixels_write</obj_property>
+                  <obj_property name="ObjectShortName">dst_pixels_write</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="width_c_group">
+               <obj_property name="label">width_c(width_c_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/Filter2D_U0/width_c_blk_n">
+                  <obj_property name="ElementShortName">width_c_blk_n</obj_property>
+                  <obj_property name="ObjectShortName">width_c_blk_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/Filter2D_U0/width_c_din">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/Filter2D_U0/width_c_full_n">
+                  <obj_property name="ElementShortName">width_c_full_n</obj_property>
+                  <obj_property name="ObjectShortName">width_c_full_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/Filter2D_U0/width_c_write">
+                  <obj_property name="ElementShortName">width_c_write</obj_property>
+                  <obj_property name="ObjectShortName">width_c_write</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="height_c_group">
+               <obj_property name="label">height_c(height_c_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/Filter2D_U0/height_c_blk_n">
+                  <obj_property name="ElementShortName">height_c_blk_n</obj_property>
+                  <obj_property name="ObjectShortName">height_c_blk_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/Filter2D_U0/height_c_din">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/Filter2D_U0/height_c_full_n">
+                  <obj_property name="ElementShortName">height_c_full_n</obj_property>
+                  <obj_property name="ObjectShortName">height_c_full_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/Filter2D_U0/height_c_write">
+                  <obj_property name="ElementShortName">height_c_write</obj_property>
+                  <obj_property name="ObjectShortName">height_c_write</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="grp_Filter2D_Pipeline_1_fu_1054_group">
+            <obj_property name="label">grp_Filter2D_Pipeline_1_fu_1054</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="grp_Filter2D_Pipeline_1_fu_1054_Handshake_group">
+               <obj_property name="label">Block-level handshake</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/Filter2D_U0/grp_Filter2D_Pipeline_1_fu_1054/ap_start">
+                  <obj_property name="ElementShortName">ap_start</obj_property>
+                  <obj_property name="ObjectShortName">ap_start</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/Filter2D_U0/grp_Filter2D_Pipeline_1_fu_1054/ap_ready">
+                  <obj_property name="ElementShortName">ap_ready</obj_property>
+                  <obj_property name="ObjectShortName">ap_ready</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/Filter2D_U0/grp_Filter2D_Pipeline_1_fu_1054/ap_done">
+                  <obj_property name="ElementShortName">ap_done</obj_property>
+                  <obj_property name="ObjectShortName">ap_done</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="grp_Filter2D_Pipeline_VITIS_LOOP_30_1_VITIS_LOOP_32_2_fu_1288_group">
+            <obj_property name="label">grp_Filter2D_Pipeline_VITIS_LOOP_30_1_VITIS_LOOP_32_2_fu_1288</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="grp_Filter2D_Pipeline_VITIS_LOOP_30_1_VITIS_LOOP_32_2_fu_1288_Handshake_group">
+               <obj_property name="label">Block-level handshake</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/Filter2D_U0/grp_Filter2D_Pipeline_VITIS_LOOP_30_1_VITIS_LOOP_32_2_fu_1288/ap_start">
+                  <obj_property name="ElementShortName">ap_start</obj_property>
+                  <obj_property name="ObjectShortName">ap_start</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/Filter2D_U0/grp_Filter2D_Pipeline_VITIS_LOOP_30_1_VITIS_LOOP_32_2_fu_1288/ap_ready">
+                  <obj_property name="ElementShortName">ap_ready</obj_property>
+                  <obj_property name="ObjectShortName">ap_ready</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/Filter2D_U0/grp_Filter2D_Pipeline_VITIS_LOOP_30_1_VITIS_LOOP_32_2_fu_1288/ap_done">
+                  <obj_property name="ElementShortName">ap_done</obj_property>
+                  <obj_property name="ObjectShortName">ap_done</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="PixelStream2AXIBursts_U0_group">
+         <obj_property name="label">PixelStream2AXIBursts_U0</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="protoinst" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/PixelStream2AXIBursts_U0/grp_PixelStream2AXIBursts_Pipeline_pixels2bytes_fu_219/grp_PixelStream2AXIBursts_Pipeline_pixels2bytes_fu_219_activity">
+            <obj_property name="ElementShortName">grp_PixelStream2AXIBursts_Pipeline_pixels2bytes_fu_219_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_PixelStream2AXIBursts_Pipeline_pixels2bytes_fu_219_activity</obj_property>
+         </wvobject>
+         <wvobject type="protoinst" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/PixelStream2AXIBursts_U0/grp_PixelStream2AXIBursts_Pipeline_bytes2aximm_fu_262/grp_PixelStream2AXIBursts_Pipeline_bytes2aximm_fu_262_activity">
+            <obj_property name="ElementShortName">grp_PixelStream2AXIBursts_Pipeline_bytes2aximm_fu_262_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_PixelStream2AXIBursts_Pipeline_bytes2aximm_fu_262_activity</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="PixelStream2AXIBursts_U0_Input_group">
+            <obj_property name="label">Input Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="dst_pixels_group">
+               <obj_property name="label">dst_pixels(dst_pixels_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/PixelStream2AXIBursts_U0/dst_pixels_dout">
+                  <obj_property name="ElementShortName">dst_pixels_dout[7:0]</obj_property>
+                  <obj_property name="ObjectShortName">dst_pixels_dout[7:0]</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/PixelStream2AXIBursts_U0/dst_pixels_empty_n">
+                  <obj_property name="ElementShortName">dst_pixels_empty_n</obj_property>
+                  <obj_property name="ObjectShortName">dst_pixels_empty_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/PixelStream2AXIBursts_U0/dst_pixels_read">
+                  <obj_property name="ElementShortName">dst_pixels_read</obj_property>
+                  <obj_property name="ObjectShortName">dst_pixels_read</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="width_group">
+               <obj_property name="label">width(width_c_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/PixelStream2AXIBursts_U0/width_blk_n">
+                  <obj_property name="ElementShortName">width_blk_n</obj_property>
+                  <obj_property name="ObjectShortName">width_blk_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/PixelStream2AXIBursts_U0/width_dout">
+                  <obj_property name="ElementShortName">width_dout[31:0]</obj_property>
+                  <obj_property name="ObjectShortName">width_dout[31:0]</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/PixelStream2AXIBursts_U0/width_empty_n">
+                  <obj_property name="ElementShortName">width_empty_n</obj_property>
+                  <obj_property name="ObjectShortName">width_empty_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/PixelStream2AXIBursts_U0/width_read">
+                  <obj_property name="ElementShortName">width_read</obj_property>
+                  <obj_property name="ObjectShortName">width_read</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="height_group">
+               <obj_property name="label">height(height_c_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/PixelStream2AXIBursts_U0/height_blk_n">
+                  <obj_property name="ElementShortName">height_blk_n</obj_property>
+                  <obj_property name="ObjectShortName">height_blk_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/PixelStream2AXIBursts_U0/height_dout">
+                  <obj_property name="ElementShortName">height_dout[31:0]</obj_property>
+                  <obj_property name="ObjectShortName">height_dout[31:0]</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/PixelStream2AXIBursts_U0/height_empty_n">
+                  <obj_property name="ElementShortName">height_empty_n</obj_property>
+                  <obj_property name="ObjectShortName">height_empty_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/PixelStream2AXIBursts_U0/height_read">
+                  <obj_property name="ElementShortName">height_read</obj_property>
+                  <obj_property name="ObjectShortName">height_read</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="stride_group">
+               <obj_property name="label">stride(stride_c_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/PixelStream2AXIBursts_U0/stride_blk_n">
+                  <obj_property name="ElementShortName">stride_blk_n</obj_property>
+                  <obj_property name="ObjectShortName">stride_blk_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/PixelStream2AXIBursts_U0/stride_dout">
+                  <obj_property name="ElementShortName">stride_dout[31:0]</obj_property>
+                  <obj_property name="ObjectShortName">stride_dout[31:0]</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/PixelStream2AXIBursts_U0/stride_empty_n">
+                  <obj_property name="ElementShortName">stride_empty_n</obj_property>
+                  <obj_property name="ObjectShortName">stride_empty_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/PixelStream2AXIBursts_U0/stride_read">
+                  <obj_property name="ElementShortName">stride_read</obj_property>
+                  <obj_property name="ObjectShortName">stride_read</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="dst_group">
+               <obj_property name="label">dst(dst_c_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/PixelStream2AXIBursts_U0/dst_blk_n">
+                  <obj_property name="ElementShortName">dst_blk_n</obj_property>
+                  <obj_property name="ObjectShortName">dst_blk_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/PixelStream2AXIBursts_U0/dst_dout">
+                  <obj_property name="ElementShortName">dst_dout[63:0]</obj_property>
+                  <obj_property name="ObjectShortName">dst_dout[63:0]</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/PixelStream2AXIBursts_U0/dst_empty_n">
+                  <obj_property name="ElementShortName">dst_empty_n</obj_property>
+                  <obj_property name="ObjectShortName">dst_empty_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/PixelStream2AXIBursts_U0/dst_read">
+                  <obj_property name="ElementShortName">dst_read</obj_property>
+                  <obj_property name="ObjectShortName">dst_read</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="PixelStream2AXIBursts_U0_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/PixelStream2AXIBursts_U0/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/PixelStream2AXIBursts_U0/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/PixelStream2AXIBursts_U0/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/PixelStream2AXIBursts_U0/ap_continue">
+               <obj_property name="ElementShortName">ap_continue</obj_property>
+               <obj_property name="ObjectShortName">ap_continue</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="PixelStream2AXIBursts_U0_Output_group">
+            <obj_property name="label">Output Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="grp_PixelStream2AXIBursts_Pipeline_pixels2bytes_fu_219_group">
+            <obj_property name="label">grp_PixelStream2AXIBursts_Pipeline_pixels2bytes_fu_219</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="grp_PixelStream2AXIBursts_Pipeline_pixels2bytes_fu_219_Handshake_group">
+               <obj_property name="label">Block-level handshake</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/PixelStream2AXIBursts_U0/grp_PixelStream2AXIBursts_Pipeline_pixels2bytes_fu_219/ap_start">
+                  <obj_property name="ElementShortName">ap_start</obj_property>
+                  <obj_property name="ObjectShortName">ap_start</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/PixelStream2AXIBursts_U0/grp_PixelStream2AXIBursts_Pipeline_pixels2bytes_fu_219/ap_ready">
+                  <obj_property name="ElementShortName">ap_ready</obj_property>
+                  <obj_property name="ObjectShortName">ap_ready</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/PixelStream2AXIBursts_U0/grp_PixelStream2AXIBursts_Pipeline_pixels2bytes_fu_219/ap_done">
+                  <obj_property name="ElementShortName">ap_done</obj_property>
+                  <obj_property name="ObjectShortName">ap_done</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="grp_PixelStream2AXIBursts_Pipeline_bytes2aximm_fu_262_group">
+            <obj_property name="label">grp_PixelStream2AXIBursts_Pipeline_bytes2aximm_fu_262</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="grp_PixelStream2AXIBursts_Pipeline_bytes2aximm_fu_262_Handshake_group">
+               <obj_property name="label">Block-level handshake</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/PixelStream2AXIBursts_U0/grp_PixelStream2AXIBursts_Pipeline_bytes2aximm_fu_262/ap_start">
+                  <obj_property name="ElementShortName">ap_start</obj_property>
+                  <obj_property name="ObjectShortName">ap_start</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/PixelStream2AXIBursts_U0/grp_PixelStream2AXIBursts_Pipeline_bytes2aximm_fu_262/ap_ready">
+                  <obj_property name="ElementShortName">ap_ready</obj_property>
+                  <obj_property name="ObjectShortName">ap_ready</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_Filter2DKernel_top/AESL_inst_Filter2DKernel/PixelStream2AXIBursts_U0/grp_PixelStream2AXIBursts_Pipeline_bytes2aximm_fu_262/ap_done">
+                  <obj_property name="ElementShortName">ap_done</obj_property>
+                  <obj_property name="ObjectShortName">ap_done</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+</wave_config>

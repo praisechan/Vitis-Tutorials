@@ -1,0 +1,81 @@
+#-----------------------------------------------------------
+# xsim v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 04:59:54 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Mon Nov  4 21:41:39 2024
+# Process ID: 1148907
+# Current directory: /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/.run/1148816/hw_em/device0/binary_0/behav_waveform/xsim
+# Command line: xsim -log simulate.log -mode tcl -source {xsim.dir/pfm_top_wrapper_behav/xsim_script.tcl}
+# Log file: /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/.run/1148816/hw_em/device0/binary_0/behav_waveform/xsim/simulate.log
+# Journal file: /home/juchanlee/Vitis-Tutorials/Hardware_Acceleration/Feature_Tutorials/05-using-multiple-cu/reference-files/.run/1148816/hw_em/device0/binary_0/behav_waveform/xsim/xsim.jou
+# Running On: user-SYS-741GE-TNRT, OS: Linux, CPU Frequency: 800.000 MHz, CPU Physical cores: 25, Host memory: 540710 MB
+#-----------------------------------------------------------
+source xsim.dir/pfm_top_wrapper_behav/xsim_script.tcl
+# xsim {pfm_top_wrapper_behav} -wdb {xilinx_u55c_gen3x16_xdma_3_202210_1-0-filter2d.hw_emu.wdb} -autoloadwcfg -tclbatch {pfm_top_wrapper.tcl} -key {Behavioral:sim_1:Functional:pfm_top_wrapper} -protoinst {protoinst_files/bd_f615.protoinst} -protoinst {protoinst_files/bd_4bfa.protoinst} -protoinst {protoinst_files/bd_2b97.protoinst} -protoinst {protoinst_files/bd_4688.protoinst} -protoinst {protoinst_files/bd_86d9.protoinst} -protoinst {protoinst_files/bd_8629.protoinst} -protoinst {protoinst_files/bd_4678.protoinst} -protoinst {protoinst_files/bd_87c9.protoinst} -protoinst {protoinst_files/bd_4798.protoinst} -protoinst {protoinst_files/bd_d216.protoinst} -protoinst {protoinst_files/bd_763a.protoinst} -protoinst {protoinst_files/bd_b62f.protoinst} -protoinst {protoinst_files/bd_76a6.protoinst} -protoinst {protoinst_files/bd_5dca.protoinst} -protoinst {protoinst_files/pfm_dynamic.protoinst} -protoinst {protoinst_files/bd_387c.protoinst} -protoinst {protoinst_files/pfm_top.protoinst} -protoinst {./dr_behav.protoinst}
+
+Warning: (W505) object already exists: .pfm_top_wrapper.pfm_top_i.pfm_dynamic_inst.System_DPA.dpa_hub.inst.s_aximm_wr_util. Latter declaration will be renamed to .pfm_top_wrapper.pfm_top_i.pfm_dynamic_inst.System_DPA.dpa_hub.inst.s_aximm_wr_util_0
+In file: sc_object_manager.cpp:161
+
+Warning: (W505) object already exists: .pfm_top_wrapper.pfm_top_i.pfm_dynamic_inst.System_DPA.dpa_mon0.inst.rd_mon.rd_skt. Latter declaration will be renamed to .pfm_top_wrapper.pfm_top_i.pfm_dynamic_inst.System_DPA.dpa_mon0.inst.rd_mon.rd_skt_0
+In file: sc_object_manager.cpp:161
+
+Warning: (W505) object already exists: .pfm_top_wrapper.pfm_top_i.pfm_dynamic_inst.System_DPA.dpa_mon0.inst.rd_mon.wr_skt. Latter declaration will be renamed to .pfm_top_wrapper.pfm_top_i.pfm_dynamic_inst.System_DPA.dpa_mon0.inst.rd_mon.wr_skt_0
+In file: sc_object_manager.cpp:161
+WARNING::[ XTLM::751 ] Deprecated.! Please instantiate Memory Manager with this pointer (sc_module pointer).
+
+Info: (I804) /IEEE_Std_1666/deprecated: sc_sensitive_neg is deprecated use sc_sensitive << with neg() instead
+
+Warning: (W505) object already exists: .pfm_top_wrapper.pfm_top_i.pfm_dynamic_inst.System_DPA.dpa_mon1.inst.rd_mon.rd_skt_0. Latter declaration will be renamed to .pfm_top_wrapper.pfm_top_i.pfm_dynamic_inst.System_DPA.dpa_mon1.inst.rd_mon.rd_skt_0_0
+In file: sc_object_manager.cpp:161
+WARNING::[ XTLM::751 ] Deprecated.! Please instantiate Memory Manager with this pointer (sc_module pointer).
+
+Warning: (W505) object already exists: .pfm_top_wrapper.pfm_top_i.pfm_dynamic_inst.System_DPA.dpa_mon1.inst.wr_mon.wr_skt_0. Latter declaration will be renamed to .pfm_top_wrapper.pfm_top_i.pfm_dynamic_inst.System_DPA.dpa_mon1.inst.wr_mon.wr_skt_0_0
+In file: sc_object_manager.cpp:161
+WARNING::[ XTLM::751 ] Deprecated.! Please instantiate Memory Manager with this pointer (sc_module pointer).
+
+Warning: (W505) object already exists: .pfm_top_wrapper.pfm_top_i.pfm_dynamic_inst.System_DPA.dpa_mon1.inst.mon_saxi_rd_socket_0. Latter declaration will be renamed to .pfm_top_wrapper.pfm_top_i.pfm_dynamic_inst.System_DPA.dpa_mon1.inst.mon_saxi_rd_socket_0_0
+In file: sc_object_manager.cpp:161
+
+Warning: (W505) object already exists: .pfm_top_wrapper.pfm_top_i.pfm_dynamic_inst.System_DPA.dpa_mon1.inst.mon_saxi_wr_socket_0. Latter declaration will be renamed to .pfm_top_wrapper.pfm_top_i.pfm_dynamic_inst.System_DPA.dpa_mon1.inst.mon_saxi_wr_socket_0_0
+In file: sc_object_manager.cpp:161
+
+Warning: (W505) object already exists: .pfm_top_wrapper.pfm_top_i.pfm_dynamic_inst.System_DPA.dpa_mon2.inst.rd_mon.rd_skt_0. Latter declaration will be renamed to .pfm_top_wrapper.pfm_top_i.pfm_dynamic_inst.System_DPA.dpa_mon2.inst.rd_mon.rd_skt_0_0
+In file: sc_object_manager.cpp:161
+WARNING::[ XTLM::751 ] Deprecated.! Please instantiate Memory Manager with this pointer (sc_module pointer).
+
+Warning: (W505) object already exists: .pfm_top_wrapper.pfm_top_i.pfm_dynamic_inst.System_DPA.dpa_mon2.inst.wr_mon.wr_skt_0. Latter declaration will be renamed to .pfm_top_wrapper.pfm_top_i.pfm_dynamic_inst.System_DPA.dpa_mon2.inst.wr_mon.wr_skt_0_0
+In file: sc_object_manager.cpp:161
+WARNING::[ XTLM::751 ] Deprecated.! Please instantiate Memory Manager with this pointer (sc_module pointer).
+
+Warning: (W505) object already exists: .pfm_top_wrapper.pfm_top_i.pfm_dynamic_inst.System_DPA.dpa_mon2.inst.mon_saxi_rd_socket_0. Latter declaration will be renamed to .pfm_top_wrapper.pfm_top_i.pfm_dynamic_inst.System_DPA.dpa_mon2.inst.mon_saxi_rd_socket_0_0
+In file: sc_object_manager.cpp:161
+
+Warning: (W505) object already exists: .pfm_top_wrapper.pfm_top_i.pfm_dynamic_inst.System_DPA.dpa_mon2.inst.mon_saxi_wr_socket_0. Latter declaration will be renamed to .pfm_top_wrapper.pfm_top_i.pfm_dynamic_inst.System_DPA.dpa_mon2.inst.mon_saxi_wr_socket_0_0
+In file: sc_object_manager.cpp:161
+WARNING::[ XTLM::751 ] Deprecated.! Please instantiate Memory Manager with this pointer (sc_module pointer).
+WARNING::[ XTLM::751 ] Deprecated.! Please instantiate Memory Manager with this pointer (sc_module pointer).
+WARNING::[ XTLM::751 ] Deprecated.! Please instantiate Memory Manager with this pointer (sc_module pointer).
+WARNING::[ XTLM::751 ] Deprecated.! Please instantiate Memory Manager with this pointer (sc_module pointer).
+WARNING::[ XTLM::751 ] Deprecated.! Please instantiate Memory Manager with this pointer (sc_module pointer).
+WARNING::[ XTLM::751 ] Deprecated.! Please instantiate Memory Manager with this pointer (sc_module pointer).
+WARNING::[ XTLM::751 ] Deprecated.! Please instantiate Memory Manager with this pointer (sc_module pointer).
+WARNING::[ XTLM::751 ] Deprecated.! Please instantiate Memory Manager with this pointer (sc_module pointer).
+WARNING::[ XTLM::751 ] Deprecated.! Please instantiate Memory Manager with this pointer (sc_module pointer).
+WARNING::[ XTLM::751 ] Deprecated.! Please instantiate Memory Manager with this pointer (sc_module pointer).
+WARNING::[ XTLM::751 ] Deprecated.! Please instantiate Memory Manager with this pointer (sc_module pointer).
+WARNING::[ XTLM::751 ] Deprecated.! Please instantiate Memory Manager with this pointer (sc_module pointer).
+WARNING::[ XTLM::751 ] Deprecated.! Please instantiate Memory Manager with this pointer (sc_module pointer).
+WARNING::[ XTLM::751 ] Deprecated.! Please instantiate Memory Manager with this pointer (sc_module pointer).
+
+Warning: (W570) attempt to use an empty process handle ignored: dont_initialize()
+In file: sc_process_handle.h:290
+WARNING::[ XTLM::751 ] Deprecated.! Please instantiate Memory Manager with this pointer (sc_module pointer).
+
+Info: (I804) /IEEE_Std_1666/deprecated: sc_sensitive_pos is deprecated use sc_sensitive << with pos() instead
+
+Info: (I804) /IEEE_Std_1666/deprecated: sc_object::get_parent() is deprecated, use get_parent_object() instead
+binding stream socket: Permission denied
+ERROR: [Simtcl 6-50] Simulation engine failed to start: The Simulation shut down unexpectedly during initialization.
+Please see the Tcl Console or the Messages for details.
+exit
+INFO: [Common 17-206] Exiting xsim at Mon Nov  4 21:41:42 2024...

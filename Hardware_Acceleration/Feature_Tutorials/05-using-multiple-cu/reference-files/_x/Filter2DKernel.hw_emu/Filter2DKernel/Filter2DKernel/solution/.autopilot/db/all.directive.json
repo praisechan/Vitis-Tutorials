@@ -1,0 +1,35 @@
+{"sourceFile": [{
+      "name": "",
+      "directive": [
+        {
+          "functionName": "Filter2DKernel",
+          "label": "",
+          "functionLabel": "",
+          "id": "1",
+          "sourceFile": "\/home\/juchanlee\/Vitis-Tutorials\/Hardware_Acceleration\/Feature_Tutorials\/05-using-multiple-cu\/reference-files\/_x\/Filter2DKernel.hw_emu\/Filter2DKernel\/Filter2DKernel.tcl",
+          "sourceLine": "28",
+          "pragma": {
+            "name": "TOP",
+            "option": [{
+                "name": "name",
+                "value": "Filter2DKernel"
+              }]
+          }
+        },
+        {
+          "functionName": "Filter2DKernel",
+          "label": "",
+          "functionLabel": "",
+          "id": "2",
+          "sourceFile": "\/home\/juchanlee\/Vitis-Tutorials\/Hardware_Acceleration\/Feature_Tutorials\/05-using-multiple-cu\/reference-files\/_x\/Filter2DKernel.hw_emu\/Filter2DKernel\/Filter2DKernel.tcl",
+          "sourceLine": "28",
+          "pragma": {
+            "name": "TOP",
+            "option": [{
+                "name": "name",
+                "value": "Filter2DKernel"
+              }]
+          }
+        }
+      ]
+    }]}
